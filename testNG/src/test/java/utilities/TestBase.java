@@ -1,17 +1,20 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
 
-public class TestBase {
+public abstract class TestBase {
+
+    //abstract yapmamizin sebebi, bu class'dan obje uretilmesinin onune gecmektir
+
     protected WebDriver driver;
 
-    @Before
+    @BeforeClass
     public void setup() {
 
         WebDriverManager.chromedriver().setup();
@@ -21,10 +24,10 @@ public class TestBase {
 
     }
 
-      @After
-      public void tearDown() {
+    @AfterClass
+    public void tearDown() {
         driver.close();
-     }
+    }
 
 
 }
