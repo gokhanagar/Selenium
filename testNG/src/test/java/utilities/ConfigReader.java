@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class ConfigReader {
 
-    public static Properties properties;
+    static Properties properties;
 
     static {
         String dosyaYolu = "configuration.properties";
