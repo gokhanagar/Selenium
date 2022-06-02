@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase;
 
 public class TestBase26 extends TestBase {
@@ -25,7 +26,9 @@ public class TestBase26 extends TestBase {
         driver.findElement(By.xpath("//*[text()='Subscription']")).isDisplayed();
 
         //6. Scroll up page to top
-        driver.findElement(By.xpath("//html[@lang='en']")).sendKeys(Keys.UP);
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.END).perform();
+
 
         //7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
         driver.findElement(By.xpath("(//*[text()='Full-Fledged practice website for Automation Engineers'])")).isDisplayed();
