@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- Bir XML dosyası ile projemizden istediğimiz testleri, package leri ,
+    classları veya test methodlarını calıştırabiliriz
+    Bunu için yapmamız gereken suit ' den baslayıp test hiyerarşisine uygun olarak
+    calısacak tüm testleri XML formatında yazmamızdır.
+
+    Eger istedigimiz tum testlere ulasmak icin birden fazla hiyerarsi olusturmamiz gerekirse
+    sonraki hiyerarsileri, uygun adimdan baslatmamiz gerekir
+     suite taginin icine yazilacak verbose attribute
+  consolda cikan mesajlarin daha az veya daha cok olmasini belirler
+  1 en az 10 en cok-->
+
+<suite name="istenen class'lari calistirma " verbose="3">
+    <test name="classlar">
+        <classes>
+            <class name="tests.day16_notations.C03_Priority"></class>
+            <class name="tests.day16_notations.C05_Assertions"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
