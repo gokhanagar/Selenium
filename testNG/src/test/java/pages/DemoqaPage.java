@@ -41,4 +41,25 @@ public class DemoqaPage {
     public List<WebElement> tableRowList;
 
 
+    @FindBy(xpath = "//div[@class='card-body']")
+    public WebElement alertsFrameWindowsBolumu;
+
+    @FindBy(xpath = "(//span[@class='group-header'])[3]//div[1]//div[1]")
+    public WebElement alertsFrameWindowsMenusu;
+
+    @FindBy(xpath = "(//span[@class='text'])[11]")
+    public WebElement browserWindowsMenusu;
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
