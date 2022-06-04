@@ -1,17 +1,12 @@
 package tests.practice;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.WebDriverUniversityPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.TestBase;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
-import static utilities.Driver.getDriver;
+import static tests.day22_crossBrowser.utilities.Driver.getDriver;
 
 public class Q4_Alert_DependsOn  {
 

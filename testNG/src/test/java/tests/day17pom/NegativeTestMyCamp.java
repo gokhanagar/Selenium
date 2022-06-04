@@ -4,7 +4,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HotelMyCampPage;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class NegativeTestMyCamp {
     HotelMyCampPage hotelmycamp = new HotelMyCampPage();

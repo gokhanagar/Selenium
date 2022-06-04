@@ -6,9 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DemoqaPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.ReusableMethods;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
+import tests.day22_crossBrowser.utilities.ReusableMethods;
 
 public class Q5 {
 
@@ -40,7 +40,7 @@ public class Q5 {
         // 5.'New window' u secerek acilan sayfayi tam ekran yapiniz.
         Driver.getDriver().manage().window().maximize();
 
-        //6. 'New window message' u seçerek acilan sayfadaki yaziyi silip 'Başardım!' yaziniz.
+
 
 
 

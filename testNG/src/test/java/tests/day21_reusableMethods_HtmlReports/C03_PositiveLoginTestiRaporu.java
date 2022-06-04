@@ -3,9 +3,9 @@ package tests.day21_reusableMethods_HtmlReports;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BrcPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.TestBaseRapor;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
+import tests.day22_crossBrowser.utilities.TestBaseRapor;
 
 public class C03_PositiveLoginTestiRaporu extends TestBaseRapor {
 
@@ -18,7 +18,7 @@ public class C03_PositiveLoginTestiRaporu extends TestBaseRapor {
         //  https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         extentTest.info("Brc anasayfaya gidildi");
-        
+
         //      login butonuna bas
         brcPage.ilkLoginButonu.click();
         extentTest.info("login butonuna tiklandi");

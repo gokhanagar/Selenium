@@ -3,8 +3,8 @@ package tests.day21_reusableMethods_HtmlReports;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.Driver;
-import utilities.ReusableMethods;
+import tests.day22_crossBrowser.utilities.Driver;
+import tests.day22_crossBrowser.utilities.ReusableMethods;
 import java.util.Set;
 
 public class C01_WindowHandleReusableMethods {

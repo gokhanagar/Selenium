@@ -3,8 +3,8 @@ package tests.day19_smokeTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BrcPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class NegativeLoginTest {
 

@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class Q4 {
 
@@ -60,8 +60,6 @@ public class Q4 {
         WebElement ddm = Driver.getDriver().findElement(By.xpath("(//*[text()='Select a registry or gift list type'])[2]"));
         ddm.click();
         Driver.getDriver().findElement(By.xpath("(//a[@class='a-dropdown-link'])[3]")).click();
-        //Select select = new Select(ddm);
-        //select.selectByVisibleText("Birthday Gift List");
 
         //10-Search butonuna tiklayin
         WebElement searchButton = Driver.getDriver().findElement(By.xpath("//button[@class='gr-btn gr-btn--rounded gr-text gr-find-stripe__cta gr-find-stripe__submit']"));

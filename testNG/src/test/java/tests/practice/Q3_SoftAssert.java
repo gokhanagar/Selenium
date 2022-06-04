@@ -1,19 +1,13 @@
 package tests.practice;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;;
+;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.SauceDemoPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.TestBase;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class Q3_SoftAssert  {
 

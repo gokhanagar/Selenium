@@ -1,9 +1,9 @@
 package tests.day21_reusableMethods_HtmlReports;
 
 import org.testng.annotations.Test;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.ReusableMethods;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
+import tests.day22_crossBrowser.utilities.ReusableMethods;
 
 import java.io.IOException;
 

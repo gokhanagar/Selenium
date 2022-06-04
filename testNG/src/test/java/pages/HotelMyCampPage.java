@@ -2,7 +2,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.Driver;
 public class HotelMyCampPage {
 
     public HotelMyCampPage(){
@@ -29,7 +29,13 @@ public class HotelMyCampPage {
     @FindBy(id = "divMessageResult")
     public WebElement girisYapilamadiElementi;
 
+    @FindBy(xpath="(//span[@class='title'])[3]")
+    public WebElement hotelManagementMenu;
 
+    @FindBy(xpath="//a[@href='/admin/HotelAdmin']")
+    public WebElement hotelListButton;
 
+    @FindBy(xpath="//a[@href='/admin/HotelAdmin/Create']")
+    public WebElement addHotelButton;
 
 }

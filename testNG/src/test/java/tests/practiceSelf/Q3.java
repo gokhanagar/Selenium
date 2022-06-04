@@ -3,8 +3,8 @@ package tests.practiceSelf;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pages.ReactPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.List;

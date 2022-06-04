@@ -1,10 +1,8 @@
 package tests.practice;
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.TestBase;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class Q2_DependsOn  {
 

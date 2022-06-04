@@ -1,8 +1,8 @@
 package tests.day18_pom;
 
 import org.testng.annotations.Test;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class C01_ConfigReader {
 

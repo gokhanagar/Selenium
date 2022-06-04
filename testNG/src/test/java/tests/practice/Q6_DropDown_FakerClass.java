@@ -1,17 +1,11 @@
 package tests.practice;
 
 import com.github.javafaker.Faker;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.TwitterPage;
-import utilities.ConfigReader;
-import utilities.Driver;
-import utilities.TestBase;
-
-import java.time.format.DateTimeFormatter;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 public class Q6_DropDown_FakerClass {
     //twitter a faker class kullanarak mail ile kayit olmaya calisiniz

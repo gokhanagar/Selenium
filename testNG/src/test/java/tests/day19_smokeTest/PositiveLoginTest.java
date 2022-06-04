@@ -1,9 +1,9 @@
 package tests.day19_smokeTest;
 
 import pages.BrcPage;
-import utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.ConfigReader;
 import org.testng.annotations.Test;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.Driver;
 import org.testng.Assert;
 
 public class PositiveLoginTest {

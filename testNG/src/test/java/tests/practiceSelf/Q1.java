@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DemoqaPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.day22_crossBrowser.utilities.ConfigReader;
+import tests.day22_crossBrowser.utilities.Driver;
 
 import java.util.List;
 
