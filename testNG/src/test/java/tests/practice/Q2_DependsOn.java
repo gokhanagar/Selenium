@@ -1,14 +1,14 @@
 package tests.practice;
 
-import org.testng.annotations.Test;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
 
-public class Q2_DependsOn  {
+import org.testng.annotations.Test;
+import tests.utilities.TestBase;
+
+public class Q2_DependsOn extends TestBase {
 
        /*
     birbirine bagimli testler olusturun..
-    .beforeClass olusturup setUp ayarlarini yapin..
+    .beforClass olusturup setUp ayarlarini yapin..
       birbirine bagimli testler olusturarak;
           ilk once facebook a gidin
           sonra facebook a bagimli olarak google a gidin,
@@ -18,31 +18,17 @@ public class Q2_DependsOn  {
  */
 
     @Test
-    public void test01() {
-        //ilk facebook'a git
-        Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
-
+    public void facebookTest(){
+        driver.get("http://www.facebook.com");
     }
 
-    @Test(dependsOnMethods = "test01")
-    public void test02() {
-        //facebook'a bagli google'a git
-        Driver.getDriver().get(ConfigReader.getProperty("googleUrl"));
-
+    @Test(dependsOnMethods="facebookTest")
+    public void googleTest(){
+        driver.get("http://www.google.com");
     }
 
-    @Test(dependsOnMethods = "test02" )
-    public void test03(){
-        //google'a bagli amazon'a git
-        Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
-        Driver.closeDriver();
-
+    @Test(dependsOnMethods="googleTest")
+    public void amazonTest(){
+        driver.get("http://www.amazon.com");
     }
-
-
-
-
-
-
-
 }

@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import pages.N11Page;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.ConfigReader;
+import tests.utilities.Driver;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

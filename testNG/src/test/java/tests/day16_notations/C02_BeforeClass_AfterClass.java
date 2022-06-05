@@ -3,7 +3,7 @@ package tests.day16_notations;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import tests.day22_crossBrowser.utilities.TestBase;
+import tests.utilities.TestBase;
 
 public class C02_BeforeClass_AfterClass extends TestBase {
     //Junit'te @BeforeClass ve @AfterClass notasyonuna sahip method lar static olmak zorundaydi.

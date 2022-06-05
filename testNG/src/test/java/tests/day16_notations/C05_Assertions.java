@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import tests.day22_crossBrowser.utilities.TestBase;
+import tests.utilities.TestBase;
 
 public class C05_Assertions extends TestBase {
 

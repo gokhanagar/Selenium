@@ -6,9 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DemoqaPage;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
-import tests.day22_crossBrowser.utilities.ReusableMethods;
+import tests.utilities.ConfigReader;
+import tests.utilities.Driver;
+import tests.utilities.ReusableMethods;
 
 public class Q5 {
 

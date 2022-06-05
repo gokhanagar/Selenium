@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HotelMyCampPage;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
 public class PositiveTestMyCamp {
 

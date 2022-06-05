@@ -1,7 +1,7 @@
 package tests.day17pom;
 
 import org.testng.annotations.Test;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
 public class C01_DriverIlkClass {
 

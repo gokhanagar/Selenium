@@ -1,47 +1,53 @@
 package tests.practice;
 
 import com.github.javafaker.Faker;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import pages.TwitterPage;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.TestBase;
 
-public class Q6_DropDown_FakerClass {
+public class Q6_DropDown_FakerClass extends TestBase {
     //twitter a faker class kullanarak mail ile kayit olmaya calisiniz
     //actions class kullanmayin twitteri deneyen instagram i denesin
 
+   // Not :bilerek page class yapmadim, derste FaceBook uzerine calismissnz karissin istemedim, siz isterseniz uyarlayabilirisniz
     @Test
-    public void test01() throws InterruptedException {
-        TwitterPage twitterPage = new TwitterPage();
-        //Twitter sayfasina gidildi.
-        Driver.getDriver().get(ConfigReader.getProperty("twitterUrl"));
+    public void register() throws InterruptedException {
 
-        //Kayit ol butonuna tiklandi
-        twitterPage.signUpWithPhoneOrEmailButton.click();
-
-        //isim gonderildi.
         Faker faker = new Faker();
-        twitterPage.nameElementi.sendKeys(faker.name().fullName());
+        driver.get("https://www.twitter.com");
+        WebElement register = driver.findElement(By.xpath("//a[@data-testid='signupButton']"));
+        register.click();
 
-        //telefon numarasi gonderildi.
-        twitterPage.phoneNumberElementi.sendKeys("5418953265");
+        WebElement emailInstead = driver.findElement(By.xpath("//span[.='E-posta kullan']"));
+        emailInstead.click();
+        WebElement isim = driver.findElement(By.name("name"));
+        isim.sendKeys(faker.funnyName().name());
+        WebElement email = driver.findElement(By.name("email"));
+        email.sendKeys(faker.internet().emailAddress());
 
-        //ay gonderildi
-        Select select1 = new Select(twitterPage.monthDDM);
-        select1.selectByValue("5");
+        Thread.sleep(2000);
 
-        //gun gonderildi
-        Select select2 = new Select(twitterPage.dayDDM);
-        select2.selectByValue("10");
+        WebElement ayElementi = driver.findElement(By.xpath("//select[@id='SELECTOR_1']"));  //ay
+        WebElement gunElementi = driver.findElement(By.xpath("//select[@id='SELECTOR_2']"));  //gun
+        WebElement yilElementi = driver.findElement(By.xpath("//select[@id='SELECTOR_3']"));  //yil
 
-        //yil gonderildi
-        Select select3 = new Select(twitterPage.yearDDM);
-        select3.selectByValue("1996");
+        Select select = new Select(ayElementi);
+        select.selectByIndex(faker.number().numberBetween(1,13)); //int number
+        Select select1 = new Select(gunElementi);
+        select1.selectByIndex(faker.random().nextInt(1, 30));
+        Select select2= new Select(yilElementi);
+        select2.selectByIndex(faker.random().nextInt(1, 120));
 
-        //Next butonuna tiklandi
-        Thread.sleep(1000);
-        twitterPage.nextButton.click();
+        WebElement nextButton = driver.findElement(By.xpath("//span[text()='İleri']"));
+        nextButton.click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ignored) {
+
+        }
+        driver.findElement(By.xpath("(//span[.='İleri'])[2]")).click();
 
 
     }

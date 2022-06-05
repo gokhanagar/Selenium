@@ -1,15 +1,18 @@
 package tests.practice;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-;
+import org.testng.Assert;;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.SauceDemoPage;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
-public class Q3_SoftAssert  {
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Q3_SoftAssert {
 
     /*
      * Navigate to  https://www.saucedemo.com/
@@ -20,65 +23,54 @@ public class Q3_SoftAssert  {
      *     T2 : Verify item prices are sorted from low to high with hard Assert
      */
 
+    // Verify item prices are sorted from low to high with hard Assert
 
     @Test
-    public void test01() {
-        SauceDemoPage sauceDemoPage = new SauceDemoPage();
-        //* Navigate to  https://www.saucedemo.com/
-        Driver.getDriver().get(ConfigReader.getProperty("saucedemoUrl"));
+    public void sauceDemoSoft(){
+        Driver.getDriver().get("https://www.saucedemo.com/");
 
-        //* Enter the user name  as standard_user
-        sauceDemoPage.userNameElementi.sendKeys(ConfigReader.getProperty("sauceDemoCorrectUserName"));
+        SauceDemoPage sdpage = new SauceDemoPage();
+        sdpage.username.sendKeys("standard_user");
+        sdpage.password.sendKeys("secret_sauce");
+        sdpage.loginButton.click();
 
-        //* Enter the password as   secret_sauce
-        sauceDemoPage.passwordElementi.sendKeys(ConfigReader.getProperty("sauceDemoCorrectPassword"));
-
-        //* Click on login button
-        sauceDemoPage.loginButton.click();
-
-        //T1 : Choose price low to high with soft Assert
-        Select select = new Select(sauceDemoPage.ddmNameAToZ);
+        Select select =new Select(sdpage.dropDown);
         select.selectByVisibleText("Price (low to high)");
 
-        //T1 : Verify item prices are sorted from low to high with soft Assert
+        String expected = "PRICE (LOW TO HIGH)";
         String actual = select.getFirstSelectedOption().getText();
-        String expected = "Price (low to high)";
         String actual2 = Driver.getDriver().findElement(By.className("active_option")).getText();
         SoftAssert softAssert=new SoftAssert();
         softAssert.assertEquals(actual,expected);
         softAssert.assertEquals(actual2,expected);
+        softAssert.assertAll();
 
-        Driver.closeDriver();
     }
 
-    /*
+
     @Test
-    public void test02(){
+    public void sauceDemoHard(){
+        Driver.getDriver().get("https://www.saucedemo.com/");
 
-        SauceDemoPage sauceDemoPage = new SauceDemoPage();
-        //* Navigate to  https://www.saucedemo.com/
-        Driver.getDriver().get(ConfigReader.getProperty("saucedemoUrl"));
+        SauceDemoPage sdpage = new SauceDemoPage();
+        sdpage.username.sendKeys("standard_user");
+        sdpage.password.sendKeys("secret_sauce");
+        sdpage.loginButton.click();
 
-        //* Enter the user name  as standard_user
-        sauceDemoPage.userNameElementi.sendKeys(ConfigReader.getProperty("sauceDemoCorrectUserName"));
+        Select select =new Select(sdpage.dropDown);
+        select.selectByIndex(2);
+        ArrayList<Double> urunlerDouble = new ArrayList<>();
 
-        //* Enter the password as   secret_sauce
-        sauceDemoPage.passwordElementi.sendKeys(ConfigReader.getProperty("sauceDemoCorrectPassword"));
+        for (WebElement each: sdpage.urunler){
+           // String fiyatStr = each.getText().replaceAll("$", "");
+            String fiyatStr = each.getText().replaceAll("^\\D", "");
+            urunlerDouble.add(Double.parseDouble(fiyatStr));
+        }
 
-        //* Click on login button
-        sauceDemoPage.loginButton.click();
+        ArrayList<Double> kontrolListe = new ArrayList<>(urunlerDouble);
+        Collections.sort(kontrolListe);
 
-        // Choose price low to high with soft Assert
-        Select select = new Select(sauceDemoPage.ddmNameAToZ);
-        select.selectByVisibleText("Price (low to high)");
-
-        //T2 : Verify item prices are sorted from low to high with hard Assert
-        String actualSelectedTitle = select.getFirstSelectedOption().getText();
-        String expectedSelectedTitle = "Price (low to high)";
-        Assert.assertEquals(actualSelectedTitle, expectedSelectedTitle, "secilen option dogru degil");
-
-        Driver.closeDriver();
+        Assert.assertEquals(kontrolListe,urunlerDouble);
 
     }
-*/
 }

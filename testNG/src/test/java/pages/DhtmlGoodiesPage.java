@@ -3,56 +3,40 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
-public class DhtmlGoodiesPage {
 
-    public DhtmlGoodiesPage() {
+public class DHtmlGoodiesPage {
+    public DHtmlGoodiesPage() {
 
-        PageFactory.initElements(Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(),this);
     }
-
-    @FindBy(xpath = "//div[@id='box6']")
-    public WebElement romeDragElementi;
-
-    @FindBy(xpath = "//div[@id='box1']")
-    public WebElement osloDragElementi;
-
-    @FindBy(xpath = "//div[@id='box7']")
-    public WebElement madridDragElementi;
-
-    @FindBy(xpath = "//div[@id='box5']")
-    public WebElement seoulDragElementi;
-
-    @FindBy(xpath = "//div[@id='box4']")
-    public WebElement copenhagenDragElementi;
-
-    @FindBy(xpath = "//div[@id='box3']")
-    public WebElement washingtonDragElementi;
-
-    @FindBy(xpath = "//div[@id='box2']")
-    public WebElement stockholmDragElementi;
-
     @FindBy(xpath = "//div[@id='box106']")
-    public WebElement italyDropElementi;
-
-    @FindBy(xpath = "//div[@id='box107']")
-    public WebElement spainDropElementi;
-
-    @FindBy(xpath = "//div[@id='box101']")
-    public WebElement norwayDropElementi;
-
-    @FindBy(xpath = "//div[@id='box104']")
-    public WebElement denmarkDropElementi;
-
-    @FindBy(xpath = "//div[@id='box105']")
-    public WebElement southKoreaDropElementi;
-
+    public WebElement Italy;
+    @FindBy(xpath ="//div[@id='box6']")
+    public WebElement Roma;
     @FindBy(xpath = "//div[@id='box102']")
-    public WebElement swedenDropElementi;
-
+    public WebElement Sweden ;
+    @FindBy(xpath = "//div[@id='box2']")
+    public WebElement Stockholm;
+    @FindBy(xpath = "//div[@id='box107']")
+    public WebElement Spain ;
+    @FindBy(xpath = "//div[@id='box7']")
+    public WebElement Madrid;
     @FindBy(xpath = "//div[@id='box103']")
-    public WebElement unitedStatesDropElementi;
-
-
+    public WebElement UnitedStates ;
+    @FindBy(xpath = "//div[@id='box3']")
+    public WebElement washington;
+    @FindBy(xpath = "//div[@id='box105']")
+    public WebElement southKorea;
+    @FindBy(xpath = "//div[@id='box5']")
+    public WebElement Seoul;
+    @FindBy(xpath = "//div[@id='box101']")
+    public WebElement Norway;
+    @FindBy(xpath = "//div[@id='box1']")
+    public WebElement Oslo;
+    @FindBy(xpath = "//div[@id='box104']")
+    public WebElement Denmark;
+    @FindBy(xpath = "//div[@id='box4']")
+    public WebElement Copenhagen;
 }

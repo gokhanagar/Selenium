@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HotelMyCampPage;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.ConfigReader;
+import tests.utilities.Driver;
 
 public class E2EMyCamp {
 

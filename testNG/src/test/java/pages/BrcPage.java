@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
 public class BrcPage {
 

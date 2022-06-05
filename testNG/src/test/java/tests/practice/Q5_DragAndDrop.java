@@ -2,32 +2,26 @@ package tests.practice;
 
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-import pages.DhtmlGoodiesPage;
-import tests.day22_crossBrowser.utilities.ConfigReader;
-import tests.day22_crossBrowser.utilities.Driver;
+import pages.DHtmlGoodiesPage;
+import tests.utilities.Driver;
 
-public class Q5_DragAndDrop  {
+
+public class Q5_DragAndDrop {
     // Go to URL : http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
     // Fill in capitals by country.
 
     @Test
     public void test() {
-        DhtmlGoodiesPage dhtmlGoodiesPage = new DhtmlGoodiesPage();
-        Actions action = new Actions(Driver.getDriver());
-        // Go to URL : http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
-        Driver.getDriver().get(ConfigReader.getProperty("dhtmlgoodiesUrl"));
-
-        // Fill in capitals by country.
-        action.dragAndDrop(dhtmlGoodiesPage.romeDragElementi, dhtmlGoodiesPage.italyDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.madridDragElementi, dhtmlGoodiesPage.spainDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.osloDragElementi, dhtmlGoodiesPage.norwayDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.seoulDragElementi, dhtmlGoodiesPage.southKoreaDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.washingtonDragElementi, dhtmlGoodiesPage.unitedStatesDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.copenhagenDragElementi, dhtmlGoodiesPage.denmarkDropElementi)
-        .dragAndDrop(dhtmlGoodiesPage.stockholmDragElementi, dhtmlGoodiesPage.swedenDropElementi).perform();
-
-        Driver.closeDriver();
-
+        Driver.getDriver().get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
+        DHtmlGoodiesPage dhtmlpage = new DHtmlGoodiesPage();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.dragAndDrop(dhtmlpage.Oslo,dhtmlpage.Norway).
+                dragAndDrop(dhtmlpage.Stockholm,dhtmlpage.Sweden).
+                dragAndDrop(dhtmlpage.washington,dhtmlpage.UnitedStates).
+                dragAndDrop(dhtmlpage.Copenhagen,dhtmlpage.Denmark).
+                dragAndDrop(dhtmlpage.Seoul, dhtmlpage.southKorea).
+                dragAndDrop(dhtmlpage.Madrid,dhtmlpage.Spain).
+                dragAndDrop(dhtmlpage.Roma,dhtmlpage.Italy).perform();
 
     }
 

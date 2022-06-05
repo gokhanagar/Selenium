@@ -1,7 +1,7 @@
 package tests.day16_notations;
 
 import org.testng.annotations.Test;
-import tests.day22_crossBrowser.utilities.TestBase;
+import tests.utilities.TestBase;
 
 public class C03_Priority extends TestBase {
     /*

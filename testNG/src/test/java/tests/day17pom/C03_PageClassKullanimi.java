@@ -4,7 +4,7 @@ import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.FacebookPage;
-import tests.day22_crossBrowser.utilities.Driver;
+import tests.utilities.Driver;
 
 public class C03_PageClassKullanimi {
 
