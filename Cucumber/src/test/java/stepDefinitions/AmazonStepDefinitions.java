@@ -43,11 +43,11 @@ public class AmazonStepDefinitions {
 
     }
 
-    @And("sonuclarin tea pot iceridigini test eder")
+    @And("sonuclarin tea pot icerdigini test eder")
     public void sonuclarinTeaPotIceridiginiTestEder() {
         String actualText = amazonPage.aramaSonucElementi.getText();
         String expectedText = "tea pot";
-
+        Assert.assertTrue(actualText.contains(expectedText));
     }
 
 
@@ -61,4 +61,43 @@ public class AmazonStepDefinitions {
         String actualText = amazonPage.aramaSonucElementi.getText();
         String expectedText = "flower";
     }
+
+    @Then("kullanici {string} icin arama yapar")
+    public void kullaniciIcinAramaYapar(String istenenKelime) {
+
+        amazonPage.aramaKutusu.sendKeys(istenenKelime + Keys.ENTER);
+    }
+
+    @And("sonuclarin {string} icerdigini test eder")
+    public void sonuclarinIcerdiginiTestEder(String istenenKelime) {
+
+        String actualText = amazonPage.aramaSonucElementi.getText();
+        String expectedText = istenenKelime;
+        Assert.assertTrue(actualText.contains(expectedText));
+    }
+
+    @Given("kullanici {string} anasayfasina")
+    public void kullaniciAnasayfasina(String istenenUrl) {
+
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
+    }
+
+    @Then("kullanici {int} saniye bekler")
+    public void kullaniciSaniyeBekler(int istenenSaniye) {
+
+        try {
+            Thread.sleep(istenenSaniye*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @And("url'in {string} icerdigini test eder")
+    public void urlInIcerdiginiTestEder(String istenenKelime) {
+        String actualUrl =Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(istenenKelime));
+
+    }
+
+
 }
