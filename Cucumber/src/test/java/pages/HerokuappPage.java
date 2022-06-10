@@ -21,4 +21,6 @@ public class HerokuappPage {
 
     @FindBy(xpath = "//button[@class='added-manually']")
     public List<WebElement> deleteListesi;
+
+
 }

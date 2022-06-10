@@ -40,4 +40,11 @@ public class HerokuStepDefinitions {
     public void deleteButonununGorunmediginiTestEder() {
         Assert.assertTrue(herokuappPage.deleteListesi.isEmpty());
     }
+    /*
+    @And("Delete butonunun gorunmedigini test eder")
+    public void deleteButonununGorunmediginiTestEder() {
+        Assert.assertTrue(herokuappPage.deleteListesi.isEmpty());
+        Assert.assertFalse(Boolean.parseBoolean(herokuappPage.deleteElementButonu.getAccessibleName()));
+    }
+     */
 }
