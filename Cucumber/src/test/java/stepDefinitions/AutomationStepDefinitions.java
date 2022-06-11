@@ -77,4 +77,21 @@ public class AutomationStepDefinitions {
 
         Assert.assertTrue(atp.positiveResultText.isDisplayed());
     }
+
+    @And("email kutusuna @ isareti olmayan email adresi yazar ve enter;a tiklar")
+    public void emailKutusunaIsaretiOlmayanEmailAdresiYazarVeEnterATiklar() {
+
+        atp.emailTextBox.sendKeys("gokhanagargmail.com");
+    }
+
+    @Then("error mesajinin {string} oldugunu dogrulayin")
+    public void errorMesajininOldugunuDogrulayin(String istenenKelime) {
+
+        Assert.assertTrue(atp.negativeResultText.isDisplayed());
+
+    }
+
+
+
+
 }
