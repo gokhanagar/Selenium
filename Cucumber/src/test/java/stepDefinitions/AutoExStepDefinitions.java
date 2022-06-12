@@ -1,21 +1,24 @@
 package stepDefinitions;
 
-
-
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AutoExPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
+import java.time.Duration;
 
 public class AutoExStepDefinitions {
     AutoExPage autoExPage = new AutoExPage();
     Actions actions = new Actions(Driver.getDriver());
     Faker faker = new Faker();
+    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
     String fakerName = faker.name().fullName();
     String fakerEmail = faker.internet().emailAddress();
     String fakerPassword = faker.internet().password();
@@ -34,7 +37,6 @@ public class AutoExStepDefinitions {
 
     @Given("Click on Signup Login button")
     public void click_on_signup_login_button() {
-
         autoExPage.signupLoginButton.click();
     }
 
@@ -53,7 +55,6 @@ public class AutoExStepDefinitions {
 
     @Given("Click Signup button")
     public void click_signup_button() {
-
         autoExPage.signupButton.click();
     }
 
@@ -67,24 +68,22 @@ public class AutoExStepDefinitions {
     public void fill_details_title_name_email_password_date_of_birth() {
         actions.click(autoExPage.acountInfoMrRadioButton)
                 .sendKeys(Keys.TAB).sendKeys(fakerName)
-                .sendKeys(Keys.TAB).sendKeys(fakerEmail)
                 .sendKeys(Keys.TAB).sendKeys(fakerPassword)
                 .sendKeys(Keys.TAB).sendKeys("20")
-                .sendKeys(Keys.TAB).sendKeys("July")
+                .sendKeys(Keys.TAB).sendKeys("May")
                 .sendKeys(Keys.TAB).sendKeys("2001")
-                .sendKeys(Keys.TAB)
-                .perform();
+                .sendKeys(Keys.TAB).perform();
     }
 
     @Given("Select checkbox Sign up for our newsletter!")
     public void select_checkbox_sign_up_for_our_newsletter() {
 
-        actions.click().sendKeys(Keys.TAB).perform();
+        actions.click(autoExPage.newsletterCheckbox).sendKeys(Keys.TAB).perform();
     }
 
     @Given("Select checkbox Receive special offers from our partners!")
     public void select_checkbox_receive_special_offers_from_our_partners() {
-        actions.click().sendKeys(Keys.TAB).perform();
+        actions.click(autoExPage.newsletterCheckbox2).sendKeys(Keys.TAB).perform();
     }
 
     @Given("Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number")
@@ -188,6 +187,139 @@ public class AutoExStepDefinitions {
     @And("Verify error Email Address already exist! is visible")
     public void verifyErrorEmailAddressAlreadyExistIsVisible() {
         Assert.assertTrue(autoExPage.emailAdressExistTextElement.isDisplayed());
+    }
 
+    @Given("Click on Contact Us button")
+    public void click_on_contact_us_button() {
+        autoExPage.contactUsButton.click();
+    }
+
+    @Given("Verify GET IN TOUCH is visible")
+    public void verify_get_in_touch_is_visible() {
+        Assert.assertTrue(autoExPage.getInTouchTextElement.isDisplayed());
+    }
+
+    @Given("Enter name, email, subject and message")
+    public void enter_name_email_subject_and_message() {
+        actions.click(autoExPage.contactUsNameBox).sendKeys(fakerName)
+                .sendKeys(Keys.TAB).sendKeys(fakerEmail)
+                .sendKeys(Keys.TAB).sendKeys("Invoice")
+                .sendKeys(Keys.TAB).sendKeys("This is my first article on this page")
+                .perform();
+    }
+
+    @Given("Upload file")
+    public void upload_file() {
+        //Passed olmasi icin Dosya yolunda "AutoEx.docx" isimli dosya olmalidir
+        String filePath = System.getProperty("user.home") + "\\Desktop\\TechProEd\\Dokumanlar\\Selenium\\AutoEx.docx";
+        autoExPage.uploadFileButton.sendKeys(filePath);
+    }
+
+    @Given("Click Submit button")
+    public void click_submit_button() {
+        autoExPage.contactUsSubmitButton.click();
+    }
+
+    @Given("Click OK button")
+    public void click_ok_button() {
+        Driver.getDriver().switchTo().alert().accept();
+    }
+
+    @Given("Verify success message Success! Your details have been submitted successfully. is visible")
+    public void verify_success_message_success_your_details_have_been_submitted_successfully_is_visible() {
+        Assert.assertTrue(autoExPage.contactUsAlertSuccessText.isDisplayed());
+    }
+
+    @Given("Click Home button and verify that landed to home page successfully")
+    public void click_home_button_and_verify_that_landed_to_home_page_successfully() {
+        autoExPage.contactUsSuccessHomeButton.click();
+        String expectedUrl = ConfigReader.getProperty("autoExUrl");
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        Assert.assertEquals(expectedUrl, actualUrl);
+    }
+
+    @And("Click on Test Cases button")
+    public void clickOnTestCasesButton() {
+        autoExPage.testCasesButton.click();
+    }
+
+    @And("Verify user is navigated to test cases page successfully")
+    public void verifyUserIsNavigatedToTestCasesPageSuccessfully() {
+        Assert.assertTrue(autoExPage.testCasesTitleText.isDisplayed());
+    }
+
+    @Given("Verify user is navigated to ALL PRODUCTS page successfully")
+    public void verify_user_is_navigated_to_all_products_page_successfully() {
+        Assert.assertTrue(autoExPage.allProductsTextElement.isDisplayed());
+    }
+
+    @Given("Click on Products button")
+    public void click_on_products_button() {
+        autoExPage.productsButton.click();
+    }
+
+    @Given("The products list is visible")
+    public void the_products_list_is_visible() {
+        Assert.assertTrue(autoExPage.productsListElements.size() != 0);
+    }
+
+    @Given("Click on View Product of first product")
+    public void click_on_view_product_of_first_product() {
+        autoExPage.firstViewProduct.click();
+    }
+
+
+    @Given("User is landed to product detail page")
+    public void user_is_landed_to_product_detail_page() {
+        String expectedUrl = ConfigReader.getProperty("autoExFirstProductDetails");
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        System.out.println("exp = " + expectedUrl);
+        System.out.println("actualUrl = " + actualUrl);
+        Assert.assertEquals(expectedUrl, actualUrl);
+    }
+
+    @Given("Verify that detail detail is visible: product name, category, price, availability, condition, brand")
+    public void verify_that_detail_detail_is_visible_product_name_category_price_availability_condition_brand() {
+        Assert.assertTrue(autoExPage.productDetails.getText().contains("Category"));
+    }
+
+    @Given("Enter product name in search input and click search button")
+    public void enter_product_name_in_search_input_and_click_search_button() {
+        autoExPage.searchProduct.sendKeys(ConfigReader.getProperty("autoExValidProductName"));
+        autoExPage.searchProductSubmit.click();
+    }
+
+    @Given("Verify SEARCHED PRODUCTS is visible")
+    public void verify_searched_products_is_visible() {
+        String searchedProductText = autoExPage.searchedProduct.getText();
+        System.out.println("searchedProductText = " + searchedProductText);
+        Assert.assertTrue(searchedProductText.contains(ConfigReader.getProperty("autoExValidProductName")));
+    }
+
+    @Given("Verify all the products related to search are visible")
+    public void verify_all_the_products_related_to_search_are_visible() {
+        Assert.assertTrue(autoExPage.searchedProduct.isDisplayed());
+    }
+
+    @Given("Scroll down to footer")
+    public void scroll_down_to_footer() {
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+        jse.executeScript("arguments[0].click();", autoExPage.subscriptionTitle);
+
+    }
+
+    @Given("Verify text SUBSCRIPTION")
+    public void verify_text_subscription() {
+        Assert.assertTrue(autoExPage.subscriptionTitle.isDisplayed());
+    }
+
+    @Given("Enter email address in input and click arrow button")
+    public void enter_email_address_in_input_and_click_arrow_button() {
+        autoExPage.subscriptionTextBox.sendKeys(ConfigReader.getProperty("autoExInvalidEmail") + Keys.ENTER);
+    }
+
+    @Given("Verify success message You have been successfully subscribed! is visible")
+    public void verify_success_message_you_have_been_successfully_subscribed_is_visible() {
+        Assert.assertTrue(autoExPage.footerElement.getText().contains("You have been successfully subscribed!"));
     }
 }

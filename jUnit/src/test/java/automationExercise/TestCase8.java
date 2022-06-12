@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+import java.util.List;
 
 public class TestCase8 {
 
@@ -49,7 +50,9 @@ public class TestCase8 {
         driver.findElement(By.xpath("(//div[@class='row'])[2]")).isDisplayed();
 
         //6. The products list is visible
-        Assert.assertTrue(driver.findElement(By.xpath("//div[@class='features_items']")).isDisplayed());
+        List<WebElement> listOfProducts = driver.findElements(By.xpath("//div[@class='productinfo text-center']"));
+        System.out.println(listOfProducts.size());
+        Assert.assertTrue(listOfProducts.size() ==34);
 
         //7. Click on 'View Product' of first product
         js.executeScript("scroll(0, 1000)");

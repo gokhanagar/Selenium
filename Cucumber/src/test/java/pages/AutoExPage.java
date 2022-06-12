@@ -5,11 +5,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class AutoExPage {
     public AutoExPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
     @FindBy(xpath = "//a[text()=' Signup / Login']")
     public WebElement signupLoginButton;
 
@@ -30,6 +31,12 @@ public class AutoExPage {
 
     @FindBy(xpath = "//input[@value='Mr']")
     public WebElement acountInfoMrRadioButton;
+
+    @FindBy(id = "newsletter")
+    public WebElement newsletterCheckbox;
+
+    @FindBy(id = "optin")
+    public WebElement newsletterCheckbox2;
 
     @FindBy(xpath = "//*[text()='Account Created!']")
     public WebElement acountCreatedTextBox;
@@ -64,7 +71,64 @@ public class AutoExPage {
     @FindBy(xpath = "//p[.='Email Address already exist!']")
     public WebElement emailAdressExistTextElement;
 
+    @FindBy(xpath = "//a[.=' Contact us']")
+    public WebElement contactUsButton;
 
+    @FindBy(xpath = "//*[.='Get In Touch']")
+    public WebElement getInTouchTextElement;
 
+    @FindBy(xpath = "//input[@name='name']")
+    public WebElement contactUsNameBox;
+
+    @FindBy(xpath = "//input[@name='upload_file']")
+    public WebElement uploadFileButton;
+
+    @FindBy(xpath = "//input[@name='submit']")
+    public WebElement contactUsSubmitButton;
+
+    @FindBy(xpath = "//div[@class='status alert alert-success']")
+    public WebElement contactUsAlertSuccessText;
+
+    @FindBy(xpath = "//span[.=' Home']")
+    public WebElement contactUsSuccessHomeButton;
+
+    @FindBy(xpath = "//a[.=' Test Cases']")
+    public WebElement testCasesButton;
+
+    @FindBy(xpath = "//b[.='Test Cases']")
+    public WebElement testCasesTitleText;
+
+    @FindBy(xpath = "//a[text()=' Products']")
+    public WebElement productsButton;
+
+    @FindBy(xpath = "//h2[text()='All Products']")
+    public WebElement allProductsTextElement;
+
+    @FindBy(xpath = "//div[@class='productinfo text-center']")
+    public List<WebElement> productsListElements;
+
+    @FindBy(xpath = "(//li[.='View Product'])[1]")
+    public WebElement firstViewProduct;
+
+    @FindBy(xpath = "//div[@class='product-information']")
+    public WebElement productDetails;
+
+    @FindBy(xpath = "//input[@id='search_product']")
+    public WebElement searchProduct;
+
+    @FindBy(xpath = "//button[@id='submit_search']")
+    public WebElement searchProductSubmit;
+
+    @FindBy(xpath = "//div[@class='productinfo text-center']")
+    public WebElement searchedProduct;
+
+    @FindBy(xpath = "//h2[.='Subscription']")
+    public WebElement subscriptionTitle;
+
+    @FindBy(xpath = "//input[@id='susbscribe_email']")
+    public WebElement subscriptionTextBox;
+
+    @FindBy(xpath = "//div[@class='footer-widget']")
+    public WebElement footerElement;
 
 }
