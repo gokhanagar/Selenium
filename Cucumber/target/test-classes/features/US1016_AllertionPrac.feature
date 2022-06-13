@@ -10,4 +10,4 @@ Feature:US1016 explicitly wait ozelligi kullanimi
     And Allert'in gorunur olmasini bekleyin
     Then Allert uzerindeki yazinin “This alert appeared after five seconds” oldugunu test edin
     And Ok yazisina tiklayarak alerti kapatin
-    #And sayfayi kapatir
+    And sayfayi kapatir

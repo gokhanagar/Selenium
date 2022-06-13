@@ -26,6 +26,15 @@ public class DemoqaPage {
     @FindBy(xpath = "//*[text()='Web Tables']")
     public WebElement webTablesButton;
 
+    @FindBy(xpath="//*[@id=\"item-8\"]")
+    public WebElement dynamicPropertiesButton;
+
+    @FindBy(xpath="//button[@id='enableAfter']")
+    public WebElement willEnable5SecondsButton;
+
+    @FindBy(xpath="//button[@id='visibleAfter']")
+    public WebElement visibleAfter5SecondsButton;
+
     @FindBy(xpath = "//div[@class='container playgound-body']")
     public WebElement webTableSayfasi;
 
