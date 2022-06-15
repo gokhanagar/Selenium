@@ -9,4 +9,4 @@ Feature: US1017 explicitly wait kullanimi
     And kullanici 1 sn bekler
     And Will enable five sceonds butonuna tiklar
     Then Will enable five seconds butonunun enable oldugunu test eder
-   # And sayfayi kapatir
+    And sayfayi kapatir
