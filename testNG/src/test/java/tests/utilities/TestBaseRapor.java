@@ -13,9 +13,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public abstract class TestBaseRapor {
-    protected static ExtentReports extentReports; //extent report'a ilk atamayi yapar
-    protected static ExtentTest extentTest; // test pass veya failed gibi bilgileri kaydeder. Ayrica ekran resmi icin de kullaniriz
-    protected static ExtentHtmlReporter extentHtmlReporter; // Html raporu duzenler
+    protected ExtentReports extentReports; //extent report'a ilk atamayi yapar
+    public ExtentTest extentTest; // test pass veya failed gibi bilgileri kaydeder. Ayrica ekran resmi icin de kullaniriz
+    protected ExtentHtmlReporter extentHtmlReporter; // Html raporu duzenler
 
     // Test işlemine başlamadan hemen önce (test methodundan önce değil, tüm test işleminden önce)
     @BeforeTest(alwaysRun = true) // alwaysRun : her zaman çalıştır.
