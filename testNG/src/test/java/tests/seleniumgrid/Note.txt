@@ -1,0 +1,11 @@
+1. Link: https://www.selenium.dev/documentation/grid/getting_started/
+
+2. Change the directory to the selenium Server folder
+
+3.Connect to the Hub
+
+
+
+
+
+
