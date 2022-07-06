@@ -1,0 +1,102 @@
+INSTALLATION:
+
+LINK:https://www.selenium.dev/documentation/grid/getting_started/
+
+1. Create a folder on dekstop and name it as SeleniumServer
+
+2.Download Selenium Server :https://www.selenium.dev/downloads/
+    Download Chrome Driver: https://chromedriver.chromium.org/
+    Download Firefox Driver: https://github.com/mozilla/geckodriver/releases
+    Move all of them to SeleniumServer folder and unzip them
+
+3. Oper your Command Prompt or Terminal and change the directory to
+    SeleniumServer Folder
+
+4. Run the server
+    http://192.168.1.3:4444 ==> This link will show us the grid details
+
+5. Create a feature file and name it as grid.feature
+
+      Feature: grid_feature
+         @grid_chrome
+         Scenario: TC01_running_on_chrome
+           Given user is on the application_URL with chrome
+           And verify the title of the page is "Blue Rental Car | Just another WordPress site"
+           Then close the remote driver
+
+         @grid_firefox
+         Scenario: TC02_running_on_chrome
+           Given user is on the application_URL with firefox
+           And verify the title of the page is "Blue Rental Car | Just another WordPress site"
+           Then close the remote driver
+
+
+6.Create the GridRunner
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        plugin={"html:target/cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt"
+        },
+        features = "src/test/resources/features", // path of feature folder
+        glue = "stepDefinitions",// path of the step definitions folder
+        tags = "@grid_firefox",
+        dryRun = false
+
+
+7. Create the GridStepDef
+
+public class GridStepDef {
+
+    WebDriver driver;
+    @Given("user is on the application_URL with chrome")
+    public void userIsOnTheApplication_URLWithChrome() throws MalformedURLException {
+      driver = new RemoteWebDriver(new URL("http://192.168.1.5:4444"), new ChromeOptions());
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+      driver.manage().window().maximize();
+      driver.get("https://www.bluerentalcar.com/");
+    }
+
+    @And("verify the title of the page is {string}")
+    public void verifyTheTitleOfThePageIs(String title) {
+        String actualTitle = driver.getTitle();
+        String expectedTitle = title;
+        assertEquals(expectedTitle,actualTitle);
+
+    }
+
+    @Then("close the remote driver")
+    public void closeTheRemoteDriver() {
+
+        driver.quit();
+    }
+
+    @Given("user is on the application_URL with firefox")
+    public void userIsOnTheApplication_URLWithFirefox() throws MalformedURLException {
+        driver = new RemoteWebDriver(new URL("http://192.168.1.5:4444"), new FirefoxOptions());
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().window().maximize();
+        driver.get("https://www.bluerentalcar.com/");
+
+    }
+}
+************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

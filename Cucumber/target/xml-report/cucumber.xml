@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.293">
-    <testcase classname="US1005 dogru kullanici adi ve sifre ile giris yapilabilmeli" name="TC08 positive login test" time="11.882">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.872">
+    <testcase classname="grid_feature" name="TC01_running_on_chrome" time="15.58">
         <system-out>
-            <![CDATA[Given kullanici "hmcUrl" anasayfasina.......................................passed
-Then Login yazisina tiklar..................................................passed
-And gecerli username girer..................................................passed
-And gecerli password girer..................................................passed
-And login butonuna basar....................................................passed
-Then sayfaya giris yaptigini kontrol eder...................................passed
-And sayfayi kapatir.........................................................passed
+            <![CDATA[Given user is on the application_URL with chrome............................passed
+And verify the title of the page is "Blue Rental Car | Just another WordPress site".passed
+Then close the remote driver................................................passed
 ]]>
         </system-out>
     </testcase>
