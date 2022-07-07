@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sequantial Cross Browser Testing"  parallel = "classes" thread-count="2" verbose = "1">
+    <test name="Parallel Test">
+
+        <classes>
+            <class name="tests.seleniumgrid.SeleniumGrid"></class>
+            <class name="tests.seleniumgrid.SeleniumGrid2"></class>
+        </classes>
+    </test>
+</suite>

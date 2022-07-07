@@ -2,10 +2,78 @@
 
 2. Change the directory to the selenium Server folder
 
-3.Connect to the Hub
+3.Register to the Hub
+java -jar selenium-server-4.3.0.jar hub
+
+4. Register the Node
+java -jar selenium-server-4.3.0.jar node --detect-drivers true
+
+5. Now that we have the servers up and running, we can create our test cases using RemoteWebDriver
+Create class : SeleniumGrid
+
+WebDriver driver;
+    @Test
+    public void test1() throws MalformedURLException, InterruptedException {
+
+    driver = new RemoteWebDriver(new URL("http://localhost:4444"),new ChromeOptions());
+    driver.get("https://www.google.com");
+    Thread.sleep(3000);
+    driver.findElement(By.name("q")).sendKeys("Iphone x" + Keys.ENTER);
+    Thread.sleep(3000);
+    System.out.println("Current Thread : " + Thread.currentThread());
+    System.out.println("Google title: " + driver.getTitle());
+    driver.quit();
+
+    }
+
+Run your class
+
+6. To run cross browser testing, create and xml file and run both of the classes
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sequantial Cross Browser Testing"  verbose = "1">
+    <test name="Parallel Test">
 
 
+        <classes>
+            <class name="tests.seleniumgrid.SeleniumGrid"></class>
+            <class name="tests.seleniumgrid.SeleniumGrid2"></class>
+        </classes>
+    </test>
+</suite>
+
+7. To run in parallel mode, create an xml file run both of the classes
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sequantial Cross Browser Testing"  parallel = "classes" thread-count="2" verbose = "1">
+    <test name="Parallel Test">
+
+        <classes>
+            <class name="tests.seleniumgrid.SeleniumGrid"></class>
+            <class name="tests.seleniumgrid.SeleniumGrid2"></class>
+        </classes>
+    </test>
+</suite>
 
 
+*******************************************************************************************
+What to remember??
 
+*** What is cross browser testing?
+-Running tests in different browsers
+
+*** Why do you do cross browser testing?
+- See compatibility of the application in different browsers
+
+***How do you parallel testing in selenium grid?
+-We have test suite for parallel testing. We use xml file for parallel testing with selenium grid
+
+***What is HUB?
+-Hub is the central server. Hub takes all tests in selenium grid and distributes them to the nodes
+
+***What is NODE?
+-Node are used to execute test cases.
+-There can be different platforms and browsers in each node.
+        -For example, we can run on chrome on one node, and firefox on another node
+-There can be multiple nodes on each hub
 
