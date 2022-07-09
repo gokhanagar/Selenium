@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class Day14_Log4j {
 
-    private static Logger logger = LogManager.getLogger(Log4j.class.getName());
+    private static Logger logger = LogManager.getLogger(Log4jx.class.getName());
     @Test
     public void log4JDemo(){
 
