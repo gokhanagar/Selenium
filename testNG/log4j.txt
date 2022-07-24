@@ -1,0 +1,2 @@
+2022-07-20 23:36:38 INFO  WebDriverManager:1093 - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-20 23:36:38 INFO  WebDriverManager:1148 - Exporting webdriver.chrome.driver as C:\Users\gokha\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe

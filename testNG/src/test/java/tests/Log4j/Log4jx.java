@@ -28,6 +28,8 @@ public class Log4jx {
         logger.error("Error Log"); //ERROR by default with no configuration
         logger.debug("Debug Log");
 
+
+
         //log klasorunun icine file gelmesi lazim ama gelmiyo
     }
 }
