@@ -8,8 +8,9 @@ import org.junit.jupiter.api.Test;
 public class Day14_Log4j {
 
     private static Logger logger = LogManager.getLogger(Day14_Log4j.class.getName());
+
     @Test
-    public void log4JDemo(){
+    public void log4JDemo() {
 
         logger.info("Info Log");
         logger.debug("Debug Log");
@@ -22,29 +23,7 @@ public class Day14_Log4j {
         //3. Do all there for the tests package ONLY
 
 
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

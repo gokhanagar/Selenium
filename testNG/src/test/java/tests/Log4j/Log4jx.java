@@ -8,10 +8,7 @@ import org.openqa.selenium.By;
 import tests.utilities.Driver;
 
 
-
 public class Log4jx {
-
-
 
 
     Logger logger = LogManager.getLogger(Log4jx.class.getName());
@@ -27,7 +24,6 @@ public class Log4jx {
         logger.fatal("Fatal Log"); // prints by default with no configuration
         logger.error("Error Log"); //ERROR by default with no configuration
         logger.debug("Debug Log");
-
 
 
         //log klasorunun icine file gelmesi lazim ama gelmiyo
