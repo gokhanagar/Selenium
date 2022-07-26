@@ -50,7 +50,7 @@ public class Q4 {
 
         // 7-Registry uzerine gelip iki kere tiklayiniz
         WebElement registryButton = Driver.getDriver().findElement(By.xpath("//a[@data-csa-c-content-id='nav_cs_registry']"));
-       registryButton.click();
+        registryButton.click();
 
         // 8-Registrant name kismina telephone yaziniz
         WebElement registrantButton = Driver.getDriver().findElement(By.xpath("//input[@placeholder='Search by Registrant name']"));
@@ -73,27 +73,7 @@ public class Q4 {
         Driver.closeDriver();
 
 
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

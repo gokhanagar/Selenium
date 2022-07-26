@@ -41,6 +41,7 @@ public class AmazonTekrar extends TestBaseRapor {
         }
         extentTest.info("Satir ve sutun sayilari goruldu");
     }
+
     private void satirSayisi() {
         List<WebElement> satirSayisi = amazon.satirSayisi;
         //satirSayisi.forEach(t-> System.out.println(t.getText()));
@@ -48,13 +49,14 @@ public class AmazonTekrar extends TestBaseRapor {
         int expectedSatirSayisi = 10;
         Assert.assertEquals(expectedSatirSayisi, amazon.satirSayisi.size());
     }
+
     private void sutunSayisi() {
         List<WebElement> sutunSayisi = amazon.sutunSayisi;
         System.out.println("Sutun Sayisi = " + sutunSayisi.size());
         int expectedSutunSayisi = 7;
         int actualSutunSayisi = (int) sutunSayisi.stream().filter(t -> !t.getText().isEmpty()).count();
-        System.out.println("Yazi olan sutun sayisi = "+actualSutunSayisi);
-        extentTest.info("Yazi olan sutun sayisi alindi = "+actualSutunSayisi);
+        System.out.println("Yazi olan sutun sayisi = " + actualSutunSayisi);
+        extentTest.info("Yazi olan sutun sayisi alindi = " + actualSutunSayisi);
         Assert.assertEquals(expectedSutunSayisi, actualSutunSayisi);
     }
 }
