@@ -11,7 +11,7 @@ public class Q6_DropDown_FakerClass extends TestBase {
     //twitter a faker class kullanarak mail ile kayit olmaya calisiniz
     //actions class kullanmayin twitteri deneyen instagram i denesin
 
-   // Not :bilerek page class yapmadim, derste FaceBook uzerine calismissnz karissin istemedim, siz isterseniz uyarlayabilirisniz
+    // Not :bilerek page class yapmadim, derste FaceBook uzerine calismissnz karissin istemedim, siz isterseniz uyarlayabilirisniz
     @Test
     public void register() throws InterruptedException {
 
@@ -34,10 +34,10 @@ public class Q6_DropDown_FakerClass extends TestBase {
         WebElement yilElementi = driver.findElement(By.xpath("//select[@id='SELECTOR_3']"));  //yil
 
         Select select = new Select(ayElementi);
-        select.selectByIndex(faker.number().numberBetween(1,13)); //int number
+        select.selectByIndex(faker.number().numberBetween(1, 13)); //int number
         Select select1 = new Select(gunElementi);
         select1.selectByIndex(faker.random().nextInt(1, 30));
-        Select select2= new Select(yilElementi);
+        Select select2 = new Select(yilElementi);
         select2.selectByIndex(faker.random().nextInt(1, 120));
 
         WebElement nextButton = driver.findElement(By.xpath("//span[text()='İleri']"));
