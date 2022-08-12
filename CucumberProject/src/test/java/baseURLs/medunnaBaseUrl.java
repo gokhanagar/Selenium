@@ -4,7 +4,7 @@ import io.cucumber.java.Before;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 
-public class medunnaBaseUrl {
+public class MedunnaBaseUrl {
 
     public static RequestSpecification spec;
     @Before(value= "@Api")
