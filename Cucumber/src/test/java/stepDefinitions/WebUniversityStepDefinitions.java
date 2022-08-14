@@ -75,4 +75,5 @@ public class WebUniversityStepDefinitions {
     public void ilkSayfayaDondugunuTestEder() {
         Assert.assertTrue(uni.loginPortalButton.isDisplayed());
     }
+
 }
