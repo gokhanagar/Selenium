@@ -33,18 +33,18 @@
     Then Doktor sayfayi kapatir
 
   Scenario: TC004-Prescription ve Description istege bagli olmali
-    And Appointment'in gorunur oldugunu dogrula
+    And Appointmentin gorunur oldugunu dogrula
     And Onbes gunluk tarih araligini sec
     And Zaman diliminin gorunur oldugunu dogrula
     And ilk hasta icin Edit butonuna tikla
     And Create or Edit an Appointment yazisinin gorunur oldugunu dogrula
     Given Prescription Description bolumunu temizle
     And Save butonuna tikla
-    And Appointment'in gorunur oldugunu dogrula
+    And Appointmentin gorunur oldugunu dogrula
     Then Doktor sayfayi kapatir
 
   Scenario: TC005_Status doktor tarafindan PENDING COMPLETED veya CANCELLED olarak secilebilmeli
-    And Appointment'in gorunur oldugunu dogrula
+    And Appointmentin gorunur oldugunu dogrula
     And Onbes gunluk tarih araligini sec
     And Zaman diliminin gorunur oldugunu dogrula
     And ucuncu hasta icin Edit butonuna tikla
