@@ -66,6 +66,7 @@ public class US0011 {
 
     @And("Doktor ekranin saginda gorunen edit butonuna tiklar")
     public void doktorEkraninSagindaGorunenEditButonunaTiklar() {
+        
     }
 
     @Then("Doktor Create or Edit an Appointment sayfasina gittigini dogrular")
