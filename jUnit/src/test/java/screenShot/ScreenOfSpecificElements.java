@@ -22,26 +22,10 @@ public class ScreenOfSpecificElements extends TestBase {
 
         //Save the image to path
         File finalPath = new File("C:\\Users\\gokha\\IdeaProjects\\jUnit\\target\\classes/googleLogo.png");
-        FileUtils.copyFile(logoImage,finalPath);
-
-
+        FileUtils.copyFile(logoImage, finalPath);
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
