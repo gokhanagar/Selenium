@@ -30,6 +30,7 @@ public class US001_US002_Registration {
 
     @Then("Kullanici database ile baglantisini keser")
     public void kullanicidatabaseIleBaglantisiniKeser() {
+
         DBUtils.closeConnection();
     }
 }

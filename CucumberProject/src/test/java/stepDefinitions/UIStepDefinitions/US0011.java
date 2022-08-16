@@ -182,7 +182,7 @@ public class US0011 {
         Select select=new Select(dktr.status);
         select.selectByValue("PENDING");
         waitFor(2);
-        Assert.assertEquals(dktr.status.getAttribute("value"),"PENDING");
+        Assert.assertEquals("PENDING",dktr.status.getAttribute("value"));
     }
 
     @And("Status kismini tikla COMPLETED secimini yap")
@@ -191,7 +191,7 @@ public class US0011 {
         Select select=new Select(dktr.status);
         select.selectByValue("COMPLETED");
         waitFor(2);
-        Assert.assertEquals(dktr.status.getAttribute("value"),"COMPLETED");
+        Assert.assertEquals("COMPLETED",dktr.status.getAttribute("value"));
     }
 
     @And("Status kismini tikla CANCELLED secimini yap")
@@ -200,7 +200,7 @@ public class US0011 {
         Select select=new Select(dktr.status);
         select.selectByValue("CANCELLED");
         waitFor(2);
-        Assert.assertEquals(dktr.status.getAttribute("value"),"CANCELLED");
+        Assert.assertEquals("CANCELLED",dktr.status.getAttribute("value"));
     }
 
 
