@@ -9,7 +9,6 @@ import java.util.Set;
 
 public class C01_Cookies extends TestBase {
 
-
     @Test
     public void cookiesTesti() {
 
