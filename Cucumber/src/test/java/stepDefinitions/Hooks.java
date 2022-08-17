@@ -2,9 +2,17 @@ package stepDefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import static utilities.Driver.driver;
 
 public class Hooks {
 
@@ -30,5 +38,28 @@ public class Hooks {
         }
         Driver.closeDriver();
     }
+
+
+
+    /*
+    public static void takeScreenShot() throws IOException {
+//        1. Taking screenshot using getScreenshotAs
+        File image = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+        /*
+        Alternatively
+        TakesScreenshot ts=(TakesScreenshot)driver;
+        File image = ts.getScreenshotAs(OutputType.FILE);
+
+
+//        2. We will save the image in this path. using currentDate for getting different name every time
+        String currentDate = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        System.out.println(currentDate);
+        String path = System.getProperty("user.dir") + "/test-output/Screenshots/" + currentDate + "test-image.png";
+        File finalPath = new File(path);
+        FileUtils.copyFile(image, finalPath);
+
+    }
+    */
 
 }
