@@ -3,11 +3,20 @@ package utilities;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import pages.HomePage;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import static baseURLs.MedunnaBaseUrl.spec;
 import static io.restassured.RestAssured.given;
+import static utilities.Driver.driver;
 
 public class ReusableMethods {
         public static void adminLogin() {
@@ -97,6 +106,25 @@ public class ReusableMethods {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void takeScreenShot() throws IOException {
+        // 1. Taking screenshot using getScreenshotAs
+        File image = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+        /*
+        Alternatively
+        TakesScreenshot ts=(TakesScreenshot)driver;
+        File image = ts.getScreenshotAs(OutputType.FILE);
+         */
+
+        // 2. We will save the image in this path. using currentDate for getting different name every time
+        String currentDate = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        // System.out.println(currentDate);
+        String path = System.getProperty("user.dir") + "/test-output/Screenshots/" + currentDate + "test-image.png";
+        File finalPath = new File(path);
+        FileUtils.copyFile(image, finalPath);
+
     }
 
 }
