@@ -10,8 +10,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import pages.GknPage;
 import utilities.Driver;
-import utilities.ReusableMethods;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,8 +28,7 @@ public class US0011 {
 
         doctorLogin();
     }
-
-
+    
     @Then("Doktor My Pages menusunde ki My Appointments butonuna tiklar")
     public void doktorMyPagesMenusundeKiMyAppointmentsButonunaTiklar() {
 
