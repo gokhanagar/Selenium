@@ -47,6 +47,7 @@ public class WebUniversityStepDefinitions {
 
     @And("password {string} yazar")
     public void passwordYazar(String password) {
+
         uni.password.sendKeys(password);
     }
 
@@ -63,6 +64,7 @@ public class WebUniversityStepDefinitions {
 
     @And("popupi ok ile kapatir")
     public void popupiOkIleKapatir() {
+
         Driver.getDriver().switchTo().alert().accept();
     }
 
