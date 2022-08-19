@@ -28,7 +28,7 @@ public class US0011 {
 
         doctorLogin();
     }
-    
+
     @Then("Doktor My Pages menusunde ki My Appointments butonuna tiklar")
     public void doktorMyPagesMenusundeKiMyAppointmentsButonunaTiklar() {
 
@@ -199,6 +199,5 @@ public class US0011 {
         waitFor(2);
         Assert.assertEquals("CANCELLED",dktr.status.getAttribute("value"));
     }
-
 
 }
