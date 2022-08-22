@@ -78,17 +78,98 @@ public class GknPage {
     @FindBy(xpath = "//textarea[@id=\"appointment-description\"]")
     public WebElement description;
 
+    @FindBy(xpath= "//li[@id='admin-menu']")
+    public WebElement administrationButton;
 
+    @FindBy(xpath="//a[@href='/admin/user-management']")
+    public WebElement userManagementButton;
 
+    @FindBy(xpath = "//a[@class='d-flex align-items-center dropdown-toggle nav-link']")
+    public WebElement accountMenu;
 
+    @FindBy(xpath = "//input[@id='username']")
+    public WebElement usernameBox;
 
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement passwordBox;
 
+    @FindBy(xpath ="//button[@type='submit']")
+    public WebElement secondSignIn;
 
+    @FindBy(xpath="(//a[@class='dropdown-item'])[2]")
+    public WebElement registerButton;
 
+    @FindBy(xpath = "//*[text()='Registration']")
+    public WebElement registrationText;
 
+    @FindBy(xpath = "//input[@id='ssn']")
+    public WebElement ssnBox;
 
+    @FindBy(xpath = "//input[@id='firstName']")
+    public WebElement firstNameBox;
 
+    @FindBy(xpath = "//input[@id='lastName']")
+    public WebElement lastNameBox;
 
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement emailBox;
+
+    @FindBy(xpath = "//input[@id='firstPassword']")
+    public WebElement newPasswordBox;
+
+    @FindBy(xpath = "//input[@id='secondPassword']")
+    public WebElement newPasswordConfirmationBox;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement finalRegisterButton;
+
+    @FindBy(xpath = "//a[@href=\"/login\"]")
+    public WebElement signInButton;
+
+    @FindBy(xpath="//li[@id='entity-menu']")
+    public WebElement itemsTitlesButton;
+
+    @FindBy(xpath = "//a[@href='/staff'][1]")
+    public WebElement staffButton;
+
+    @FindBy(id = "jh-create-entity")
+    public WebElement createANewStaffButton;
+
+    @FindBy(xpath = "//h2[.='Create or edit a Staff']")
+    public WebElement createOrEditaStaffText;
+
+    @FindBy(id = "searchSSN")
+    public WebElement staffSsnInput;
+
+    @FindBy(id = "useSSNSearch")
+    public WebElement useSearchSsnCheckbox;
+
+    @FindBy(xpath = "//button[text()='Search User']")
+    public WebElement ssnSearchUserButton;
+
+    @FindBy(xpath="//input[@id='staff-phone']")
+    public WebElement phoneBox;
+
+    @FindBy(xpath = "//button[@id='save-entity']")
+    public WebElement saveButtonStaff;
+
+    @FindBy(xpath="//thead//th[1]")
+    public WebElement id;
+
+    @FindBy(xpath = "(//span[@class='d-none d-md-inline'])[1]")
+    public WebElement viewButonu;
+
+    @FindBy(xpath = "(//dl[@class='jh-entity-details']//dd)[1]")
+    public WebElement userName;
+
+    @FindBy(xpath = "(//dl[@class='jh-entity-details']//dd)[2]")
+    public WebElement userFirstName;
+
+    @FindBy(xpath = "(//dl[@class='jh-entity-details']//dd)[3]")
+    public WebElement userLastName;
+
+    @FindBy(xpath = "(//dl[@class='jh-entity-details']//dd)[4]")
+    public WebElement userEmail;
 
 
 
