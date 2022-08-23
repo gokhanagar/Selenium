@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.GknPage;
 import utilities.ConfigReader;
@@ -24,8 +25,7 @@ import java.util.function.Function;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static utilities.JSUtils.clickElementByJS;
-import static utilities.JSUtils.scrollIntoViewJS;
+import static utilities.JSUtils.*;
 import static utilities.ReusableMethods.waitFor;
 
 public class US020 {
@@ -128,15 +128,15 @@ public class US020 {
 
     }
 
-    @And("createddate butonuna tikla ve ilgili ssn icin view bolumune tikla")
-    public void createddateButonunaTiklaVeIlgiliSsnIcinViewBolumuneTikla() {
+    @And("id butonuna tikla ve ilgili ssn icin view bolumune tikla")
+    public void idVeIlgiliSsnIcinViewBolumuneTikla() {
 
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(25));
         wait.until(ExpectedConditions.elementToBeClickable(admin.id));
         admin.id.click();
 
         waitFor(2);
-
+        addBorderWithJS(admin.viewButonu,"thick solid #0000FF");
         clickElementByJS(admin.viewButonu);
 
     }
@@ -155,4 +155,69 @@ public class US020 {
     }
 
 
+    @And("id butonuna tikla ve ilgili ssn icin edit bolumune tikla")
+    public void idButonunaTiklaVeIlgiliSsnIcinEditBolumuneTikla() {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(25));
+        wait.until(ExpectedConditions.elementToBeClickable(admin.id));
+        admin.id.click();
+        waitFor(2);
+        addBorderWithJS(admin.editButtonUMP,"thick solid #0000FF");
+        clickElementByJS(admin.editButtonUMP);
+    }
+
+    @Then("kullaniciyi aktif et ve ADMIN, USER PATIENT, STAFF ve PHYSICIAN olarak atandigini dogrular")
+    public void kullaniciyiAktifEtVeADMINUSERPATIENTSTAFFVePHYSICIANOlarakAtandiginiDogrular() {
+
+        clickElementByJS(admin.editCheckBox);
+
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+        wait.until(ExpectedConditions.visibilityOf(admin.profilesMenu));
+        Select select = new Select(admin.profilesMenu);
+
+        select.selectByValue("ROLE_ADMIN");
+        select.selectByValue("ROLE_USER");
+        select.selectByValue("ROLE_PATIENT");
+        select.selectByValue("ROLE_STAFF");
+        select.selectByValue("ROLE_PHYSICIAN");
+
+        clickElementByJS(admin.saveButtonUMP);
+
+        wait.until(ExpectedConditions.elementToBeClickable(admin.id));
+        admin.id.click();
+        waitFor(2);
+        admin.id.click();
+        waitFor(2);
+        admin.id.click();
+        waitFor(2);
+
+
+        for (int i = 0; i < admin.satirUzunlugu.size(); i++){
+
+            if(admin.satirUzunlugu.get(6).getText().contains("ROLE_ADMIN")){
+
+                assertTrue(admin.userProfilePatient.isDisplayed());
+                assertTrue(admin.userProfilePhysician.isDisplayed());
+                assertTrue(admin.userProfileUser.isDisplayed());
+                assertTrue(admin.userProfileStaff.isDisplayed());
+                assertTrue(admin.userProfileAdmin.isDisplayed());
+
+            }
+        }
+
+
+    }
+
+
+    @Then("id butonu, ilgili ssn icin delete bolumune tikla ve silindigini dogrula")
+    public void idButonuIlgiliSsnIcinDeleteBolumuneTiklaVeSilindiginiDogrula() {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(25));
+        wait.until(ExpectedConditions.elementToBeClickable(admin.id));
+        admin.id.click();
+
+        clickElementByJS(admin.deleteButtonUMP);
+        waitFor(2);
+        clickElementByJS(admin.deleteConfirmButtonUMP);
+
+
+    }
 }

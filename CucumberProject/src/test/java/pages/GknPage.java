@@ -72,6 +72,9 @@ public class GknPage {
     @FindBy(xpath = "//tbody//td[1]")
     public List<WebElement> sutunUzunlugu;
 
+    @FindBy(xpath = "//tbody//tr[1]//td")
+    public List<WebElement> satirUzunlugu;
+
     @FindBy(xpath = "//textarea[@id=\"appointment-prescription\"]")
     public WebElement prescription;
 
@@ -171,9 +174,38 @@ public class GknPage {
     @FindBy(xpath = "(//dl[@class='jh-entity-details']//dd)[4]")
     public WebElement userEmail;
 
+    @FindBy(xpath = "//input[@type='checkbox']")
+    public WebElement editCheckBox;
 
+    @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm'])[1]")
+    public WebElement editButtonUMP;
 
+    @FindBy (xpath = "//select[@id=\"authorities\"]")
+    public WebElement profilesMenu;
 
+    @FindBy(xpath="//button[@class='btn btn-primary']")
+    public WebElement saveButtonUMP;
+
+    @FindBy(xpath="(//span[@class='badge badge-info'])[1]")
+    public WebElement userProfilePatient;
+
+    @FindBy(xpath="(//span[@class='badge badge-info'])[2]")
+    public WebElement userProfilePhysician;
+
+    @FindBy(xpath="(//span[@class='badge badge-info'])[3]")
+    public WebElement userProfileUser;
+
+    @FindBy(xpath="(//span[@class='badge badge-info'])[4]")
+    public WebElement userProfileStaff;
+
+    @FindBy(xpath="(//span[@class='badge badge-info'])[5]")
+    public WebElement userProfileAdmin;
+
+    @FindBy(xpath="(//a[@class='btn btn-danger btn-sm'])[1]")
+    public WebElement deleteButtonUMP;
+
+    @FindBy(xpath="(//button[@type='button'])[24]")
+    public WebElement deleteConfirmButtonUMP;
 
 
 

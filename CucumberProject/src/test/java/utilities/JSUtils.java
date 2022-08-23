@@ -86,7 +86,7 @@ public class JSUtils {
 //        How?
 //        I can get the element using js executor, and get teh value of the element.
 //        For example, I can get the element by id, and use value attribute to get the value of in an input
-//        I have to do this, cause getText in this case does not return teh text in an input
+//        I have to do this, cause getText in this case does not return the text in an input
     }
     public static void addBorderWithJS(WebElement element, String borderStyle){
         JavascriptExecutor js = (JavascriptExecutor)Driver.getDriver();
