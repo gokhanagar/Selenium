@@ -219,14 +219,15 @@ public class AutoExeStepDefinition {
 
     @And("Upload file")
     public void uploadFile() {
-        String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\ısı.PNG";
+        String dosyaYolu = "C:\\Users\\gokha\\OneDrive\\Desktop\\isi.PNG";
         wait.until(ExpectedConditions.visibilityOf(auto.contactUploadFile));
         auto.contactUploadFile.sendKeys(dosyaYolu);
     }
 
     @And("Click Submit button")
     public void clickSubmitButton() {
-        auto.contactSubmitButton.click();
+        clickElementByJS(auto.contactSubmitButton);
+
     }
 
     @And("Click OK button")
