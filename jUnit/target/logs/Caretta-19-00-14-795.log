@@ -1,0 +1,4 @@
+2022-08-23 19:00:14,792 INFO e.t.Day14_Log4J [main] Info log
+2022-08-23 19:00:14,797 DEBUG e.t.Day14_Log4J [main] Debug log
+2022-08-23 19:00:14,798 ERROR e.t.Day14_Log4J [main] Error log
+2022-08-23 19:00:14,798 FATAL e.t.Day14_Log4J [main] Fatal log

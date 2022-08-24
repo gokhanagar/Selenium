@@ -10,7 +10,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Practice01 extends TestBase {
-
+/*
 
     @Test
     public void readExcelTest() throws IOException {
@@ -69,5 +69,5 @@ public class Practice01 extends TestBase {
 
     }
 
-
+*/
 }
