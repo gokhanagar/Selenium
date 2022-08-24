@@ -31,7 +31,7 @@ import static utilities.ReusableMethods.waitFor;
 public class US020 {
     GknPage admin = new GknPage();
     Faker faker = new Faker();
-    String fakeSSN;
+    static String fakeSSN;
     String fakeMail;
     String fakeFirstName;
     String fakeLastName;
@@ -112,11 +112,13 @@ public class US020 {
         admin.staffSsnInput.sendKeys(fakeSSN);
         admin.ssnSearchUserButton.click();
         Actions action = new Actions(Driver.getDriver());
+
+
         action.click(admin.phoneBox).sendKeys("541-789-5632").
                 sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(faker.address().fullAddress()).
                 sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).
                 sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(faker.country().name()).sendKeys(faker.address().city()).perform();
+                sendKeys(Keys.TAB).sendKeys("USA").sendKeys(Keys.TAB).sendKeys("California").perform();
 
         clickElementByJS(admin.saveButtonStaff);
     }
