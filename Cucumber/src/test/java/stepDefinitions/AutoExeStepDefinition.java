@@ -275,7 +275,7 @@ public class AutoExeStepDefinition {
 
     @And("Click on View Product of first product")
     public void clickOnViewProductOfFirstProduct() {
-        auto.firstProduct.click();
+        clickElementByJS(auto.firstProduct);
     }
 
     @And("User is landed to product detail page")
