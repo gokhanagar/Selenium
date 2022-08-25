@@ -26,7 +26,7 @@
             <AppenderRef ref="Console"/>
             <AppenderRef ref="file"/>
         </Logger>
-        <Logger name="com.myfirstproject.Day01_BasicNavigations" level="error" additivity="false">
+        <Logger name="engJunit.Day13_Log4J" level="error" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="file"/>
         </Logger>
