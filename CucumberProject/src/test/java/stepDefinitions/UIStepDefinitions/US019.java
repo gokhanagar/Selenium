@@ -4,7 +4,6 @@ import io.cucumber.java.en.And;
 import pages.GknPage;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static stepDefinitions.UIStepDefinitions.US020.fakeSSN;
 
 public class US019 {
@@ -23,7 +22,6 @@ public class US019 {
         }
 
     }
-
-
+    
 
 }
