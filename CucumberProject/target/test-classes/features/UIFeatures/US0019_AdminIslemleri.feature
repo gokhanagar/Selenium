@@ -41,7 +41,8 @@ Feature: Admin olarak cesitli islemler yapma
     And account menu ve sign in butonuna tikla
     And admin olarak giris yap
     And items&titles menusu ve staff bolumune tikla
-
+    And create a new staff butonuna tikla
+    And Gerekli bilgileri doldur ve save butonuna tikla
 
 
 
