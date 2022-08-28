@@ -135,7 +135,7 @@ public class US020 {
 
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(25));
         wait.until(ExpectedConditions.elementToBeClickable(admin.id));
-        admin.id.click();
+        clickElementByJS(admin.id);
 
         waitFor(2);
         addBorderWithJS(admin.viewButonu,"thick solid #0000FF");
@@ -221,5 +221,6 @@ public class US020 {
         clickElementByJS(admin.deleteConfirmButtonUMP);
 
 
+        
     }
 }
