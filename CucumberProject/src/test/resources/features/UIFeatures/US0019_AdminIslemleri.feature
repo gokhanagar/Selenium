@@ -47,9 +47,7 @@ Feature: Admin olarak cesitli islemler yapma
 
 
 
-
-
-
+    
 
 
 
