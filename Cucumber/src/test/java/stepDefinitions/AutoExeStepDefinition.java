@@ -406,7 +406,9 @@ public class AutoExeStepDefinition {
     @And("Click View Product for any product on home page")
     public void clickViewProductForAnyProductOnHomePage() {
         for (int i = 0; i < auto.viewProduct.size(); i++) {
-            auto.viewProduct.get(rnd.nextInt(auto.viewProduct.size())).click();
+
+            clickElementByJS( auto.viewProduct.get(rnd.nextInt(auto.viewProduct.size())));
+
         }
     }
 
