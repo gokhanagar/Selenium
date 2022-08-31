@@ -468,8 +468,8 @@ public class AutoExeStepDefinition {
         auto.password.sendKeys(faker.internet().password());
         actions.sendKeys(Keys.TAB).sendKeys("7").sendKeys(Keys.TAB)
                 .sendKeys("May").sendKeys(Keys.TAB).sendKeys("1983").perform();
-        auto.newsletter.click();
-        auto.receive.click();
+        clickElementByJS(auto.newsletter);
+        clickElementByJS(auto.receive);
         actions.sendKeys(Keys.TAB)
                 .sendKeys(faker.name().firstName())
                 .sendKeys(Keys.TAB)
