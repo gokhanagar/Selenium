@@ -488,16 +488,20 @@ public class AutoExeStepDefinition {
                 .sendKeys(Keys.TAB)
                 .sendKeys("213213545")
                 .sendKeys(Keys.TAB)
+                .sendKeys(faker.address().city())
+                .sendKeys(Keys.TAB)
+                .sendKeys(faker.address().zipCode())
+                .sendKeys(Keys.TAB)
                 .sendKeys(faker.phoneNumber().phoneNumber())
                 .sendKeys(Keys.TAB).click().perform();
-        auto.createAccount.click();
+        clickElementByJS(auto.createAccount);
     }
 
     @And("Verify ACCOUNT CREATED and click Continue button")
     public void verifyACCOUNTCREATEDAndClickContinueButton() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.AccountCreatedVisible);
         Assert.assertTrue(auto.AccountCreatedVisible.isDisplayed());
-        auto.continueButton.click();
+        clickElementByJS(auto.continueButton);
     }
 
     @And("Verify Logged in as username at top")
