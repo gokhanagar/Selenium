@@ -124,7 +124,8 @@ public class AutoExeStepDefinition {
 
     @And("Click Continue button")
     public void clickContinueButton() {
-        auto.continueButton.click();
+
+        clickElementByJS(auto.continueButton);
     }
 
     @And("Verify that Logged in as username is visible")
@@ -134,7 +135,8 @@ public class AutoExeStepDefinition {
 
     @And("Click Delete Account button")
     public void clickDeleteAccountButton() {
-        auto.deleteAccount.click();
+
+        clickElementByJS(auto.deleteAccount);
     }
 
     @And("Verify that ACCOUNT DELETED is visible and click Continue button")
