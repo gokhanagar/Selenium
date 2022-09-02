@@ -538,9 +538,7 @@ public class AutoExeStepDefinition {
     @And("Click Pay and Confirm Order button")
     public void clickPayAndConfirmOrderButton() {
         auto.payAndConfirmOrderButton.click();
-        //Driver.getDriver().navigate().back();
-        Assert.assertTrue(auto.orderPlacedSuccessMesage.isDisplayed());
-       // Driver.getDriver().navigate().forward();
+        Assert.assertTrue(auto.downloadInvoiceText.isDisplayed());
     }
 
     @And("Verify success message Your order has been placed successfully!")
