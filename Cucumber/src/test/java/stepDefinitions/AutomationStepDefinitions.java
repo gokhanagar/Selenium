@@ -16,6 +16,7 @@ public class AutomationStepDefinitions {
 
     @And("user sign in linkine tiklar")
     public void userSignInLinkineTiklar() {
+
         atp.singInButton.click();
     }
 
