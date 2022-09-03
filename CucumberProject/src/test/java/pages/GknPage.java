@@ -12,13 +12,13 @@ public class GknPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath ="//li[@id='entity-menu']")
+    @FindBy(xpath = "//li[@id='entity-menu']")
     public WebElement myPages;
 
-    @FindBy(xpath="(//a[@class='dropdown-item'])[1]")
+    @FindBy(xpath = "(//a[@class='dropdown-item'])[1]")
     public WebElement myAppointments;
 
-    @FindBy(xpath="//a[@href='/appointment-update/169761']")
+    @FindBy(xpath = "//a[@href='/appointment-update/169761']")
     public WebElement editButton;
 
     @FindBy(xpath = "//h2[@id=\"appointment-heading\"]")
@@ -81,10 +81,10 @@ public class GknPage {
     @FindBy(xpath = "//textarea[@id=\"appointment-description\"]")
     public WebElement description;
 
-    @FindBy(xpath= "//li[@id='admin-menu']")
+    @FindBy(xpath = "//li[@id='admin-menu']")
     public WebElement administrationButton;
 
-    @FindBy(xpath="//a[@href='/admin/user-management']")
+    @FindBy(xpath = "//a[@href='/admin/user-management']")
     public WebElement userManagementButton;
 
     @FindBy(xpath = "//a[@class='d-flex align-items-center dropdown-toggle nav-link']")
@@ -96,10 +96,10 @@ public class GknPage {
     @FindBy(xpath = "//input[@name='password']")
     public WebElement passwordBox;
 
-    @FindBy(xpath ="//button[@type='submit']")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement secondSignIn;
 
-    @FindBy(xpath="(//a[@class='dropdown-item'])[2]")
+    @FindBy(xpath = "(//a[@class='dropdown-item'])[2]")
     public WebElement registerButton;
 
     @FindBy(xpath = "//*[text()='Registration']")
@@ -129,7 +129,7 @@ public class GknPage {
     @FindBy(xpath = "//a[@href=\"/login\"]")
     public WebElement signInButton;
 
-    @FindBy(xpath="//li[@id='entity-menu']")
+    @FindBy(xpath = "//li[@id='entity-menu']")
     public WebElement itemsTitlesButton;
 
     @FindBy(xpath = "//a[@href='/staff'][1]")
@@ -150,13 +150,13 @@ public class GknPage {
     @FindBy(xpath = "//button[text()='Search User']")
     public WebElement ssnSearchUserButton;
 
-    @FindBy(xpath="//input[@id='staff-phone']")
+    @FindBy(xpath = "//input[@id='staff-phone']")
     public WebElement phoneBox;
 
     @FindBy(xpath = "//button[@id='save-entity']")
     public WebElement saveButtonStaff;
 
-    @FindBy(xpath="//thead//th[1]")
+    @FindBy(xpath = "//thead//th[1]")
     public WebElement id;
 
     @FindBy(xpath = "(//span[@class='d-none d-md-inline'])[1]")
@@ -180,35 +180,32 @@ public class GknPage {
     @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm'])[1]")
     public WebElement editButtonUMP;
 
-    @FindBy (xpath = "//select[@id=\"authorities\"]")
+    @FindBy(xpath = "//select[@id=\"authorities\"]")
     public WebElement profilesMenu;
 
-    @FindBy(xpath="//button[@class='btn btn-primary']")
+    @FindBy(xpath = "//button[@class='btn btn-primary']")
     public WebElement saveButtonUMP;
 
-    @FindBy(xpath="(//span[@class='badge badge-info'])[1]")
+    @FindBy(xpath = "(//span[@class='badge badge-info'])[1]")
     public WebElement userProfilePatient;
 
-    @FindBy(xpath="(//span[@class='badge badge-info'])[2]")
+    @FindBy(xpath = "(//span[@class='badge badge-info'])[2]")
     public WebElement userProfilePhysician;
 
-    @FindBy(xpath="(//span[@class='badge badge-info'])[3]")
+    @FindBy(xpath = "(//span[@class='badge badge-info'])[3]")
     public WebElement userProfileUser;
 
-    @FindBy(xpath="(//span[@class='badge badge-info'])[4]")
+    @FindBy(xpath = "(//span[@class='badge badge-info'])[4]")
     public WebElement userProfileStaff;
 
-    @FindBy(xpath="(//span[@class='badge badge-info'])[5]")
+    @FindBy(xpath = "(//span[@class='badge badge-info'])[5]")
     public WebElement userProfileAdmin;
 
-    @FindBy(xpath="(//a[@class='btn btn-danger btn-sm'])[1]")
+    @FindBy(xpath = "(//a[@class='btn btn-danger btn-sm'])[1]")
     public WebElement deleteButtonUMP;
 
-    @FindBy(xpath="(//button[@type='button'])[24]")
+    @FindBy(xpath = "(//button[@type='button'])[24]")
     public WebElement deleteConfirmButtonUMP;
-
-
-
 
 
 }
