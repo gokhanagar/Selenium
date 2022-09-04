@@ -10,3 +10,4 @@ Feature: US1013 User tests www.automationexercise.com
     And Click View Cart button
     And Verify that product is displayed in cart page with exact quantity
 
+

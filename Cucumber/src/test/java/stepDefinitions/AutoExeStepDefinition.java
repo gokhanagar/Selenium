@@ -41,7 +41,7 @@ public class AutoExeStepDefinition {
     }
 
     @And("Click on SignupLogin button")
-    public void clickOnSignupLoginButton() throws IOException {
+    public void clickOnSignupLoginButton()  throws IOException{
         auto.login.click();
 
     }
