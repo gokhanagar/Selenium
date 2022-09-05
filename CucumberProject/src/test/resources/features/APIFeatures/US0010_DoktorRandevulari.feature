@@ -11,25 +11,21 @@ Feature: Doktor randevularini api ile dogrulayin
       | 169761 | 169369   | 2022-08-16T00:00:00Z | 2022-08-16T01:00:00Z | PENDING |
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
