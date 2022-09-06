@@ -25,7 +25,7 @@ Feature: Doktor randevularini api ile dogrulayin
 
 
 
-    
+
 
 
 

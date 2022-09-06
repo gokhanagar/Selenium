@@ -25,4 +25,3 @@ Feature: Admin olarak cesitli islemler yapma
     Then id butonu, ilgili ssn icin delete bolumune tikla ve silindigini dogrula
 
 
-
