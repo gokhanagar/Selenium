@@ -304,8 +304,10 @@ public class AutoExeStepDefinition {
     }
 
     @And("Verify all the products related to search are visible")
-    public void verifyAllTheProductsRelatedToSearchAreVisible() {
+    public void verifyAllTheProductsRelatedToSearchAreVisible() throws InterruptedException {
+
         Driver.getDriver().navigate().back();
+
         auto.searchProduct.clear();
         for (WebElement w : auto.products) {
             js.executeScript("arguments[0].scrollIntoView(true);", w);
