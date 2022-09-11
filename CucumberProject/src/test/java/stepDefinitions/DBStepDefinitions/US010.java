@@ -28,39 +28,40 @@ public class US010 {
     @Given("Kullanici database ile baglanti kurar")
     public void kullaniciDatabaseIleBaglantiKurar() {
 
-    createConnection();
+        createConnection();
     }
 
     //Query tanimla
     @When("Kullanici query tanimlar")
     public void kullaniciQueryTanimlar() {
 
-        System.out.println(getColumnNames(query)+"\n");
+        System.out.println(getColumnNames(query) + "\n");
     }
+
     // Randevu datalarina ulas ve kaydet
     @And("Kullanici randevu bilgilerine ulasir ve kaydeder")
     public void kullaniciRandevuBilgilerineUlasirVeKaydeder() {
 
         System.out.println("===============ID LIST===============");
-        List<Object> idList= getColumnData(query,"id");
-        System.out.println(idList+ "\n");
+        List<Object> idList = getColumnData(query, "id");
+        System.out.println(idList + "\n");
         WriteToTxt.saveAppointmentIds(fileName1, idList);
 
         System.out.println("===============START DATE LIST===============");
-        List<Object> startDateList = getColumnData(query,"start_date");
-        System.out.println(startDateList+"\n");
-        WriteToTxt.saveAppointmentStartDate(fileName2,startDateList);
+        List<Object> startDateList = getColumnData(query, "start_date");
+        System.out.println(startDateList + "\n");
+        WriteToTxt.saveAppointmentStartDate(fileName2, startDateList);
 
         System.out.println("===============END DATE LIST===============");
-        List<Object> endDateList = getColumnData(query,"end_date");
-        System.out.println(endDateList+"\n");
+        List<Object> endDateList = getColumnData(query, "end_date");
+        System.out.println(endDateList + "\n");
         WriteToTxt.saveAppointmentEndDate(fileName3, endDateList);
 
         System.out.println("===============STATUS LIST===============");
 
-        List<Object> statusList = getColumnData(query,"status");
-        System.out.println(statusList+"\n");
-        WriteToTxt.saveAppointmentStatus(fileName4,statusList);
+        List<Object> statusList = getColumnData(query, "status");
+        System.out.println(statusList + "\n");
+        WriteToTxt.saveAppointmentStatus(fileName4, statusList);
 
     }
 
@@ -71,7 +72,7 @@ public class US010 {
         List<Object> actualAppointmentIDs = ReadTxt.returnAppointmentIDsList(fileName1);
         List<Object> expectedAppointmentIDs = new ArrayList<Object>();
         expectedAppointmentIDs.add(169761);
-        assertTrue("ID UYUSMUYOR",actualAppointmentIDs.containsAll(expectedAppointmentIDs));
+        assertTrue("ID UYUSMUYOR", actualAppointmentIDs.containsAll(expectedAppointmentIDs));
 
         List<Object> actualAppointmentStartDate = ReadTxt.returnAppointmentStartDateList(fileName2);
         List<Object> expectedAppointmentStartDate = new ArrayList<>();
