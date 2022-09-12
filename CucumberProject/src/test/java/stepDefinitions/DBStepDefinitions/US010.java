@@ -89,5 +89,6 @@ public class US010 {
         expectedAppointmentStatus.add("PENDING");
         Assert.assertTrue("STATUS UYUSMUYOR", actualAppointmentStatus.containsAll(expectedAppointmentStatus));
 
+
     }
 }
