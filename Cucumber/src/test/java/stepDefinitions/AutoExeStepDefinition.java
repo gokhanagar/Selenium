@@ -763,7 +763,7 @@ public class AutoExeStepDefinition {
 
     @And("Click on arrow at bottom right side to move upward")
     public void clickOnArrowAtBottomRightSideToMoveUpward() {
-        auto.moveUp.click();
+        clickElementByJS(auto.moveUp);
     }
 
     @And("Verify that page is scrolled up and Full-Fledged practice website for Automation Engineers text is visible on screen")
