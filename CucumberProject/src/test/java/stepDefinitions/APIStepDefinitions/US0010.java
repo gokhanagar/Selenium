@@ -12,6 +12,7 @@ import static utilities.ReusableMethods.generateToken1;
 
 public class US0010 {
     Response response;
+
     @Given("user given api {string}")
     public void userGivenApi(String url) {
 
@@ -19,12 +20,12 @@ public class US0010 {
     }
 
     @When("user sends a Get request to {string}")
-    public void userSendsAGetRequestTo(String endpoint ) {
+    public void userSendsAGetRequestTo(String endpoint) {
 
         RestAssured.basePath = endpoint;
         response = RestAssured.given().
-                header("Authorization", "Bearer " + generateToken1("DoktorTeam50","m.team50"))
-                        .when().get();
+                header("Authorization", "Bearer " + generateToken1("DoktorTeam50", "m.team50"))
+                .when().get();
         response.prettyPrint();
 
     }
@@ -34,12 +35,11 @@ public class US0010 {
     public void userValidates(String id, String patientId, String startDate, String endDate, String status) {
         Appointment actualData = response.as(Appointment.class);
 
-        assertEquals(Integer.parseInt(id) ,actualData.getId());
+        assertEquals(Integer.parseInt(id), actualData.getId());
         assertEquals(Integer.parseInt(patientId), actualData.getPatient().getId());
-        assertEquals(startDate,actualData.getStartDate());
-        assertEquals(endDate,actualData.getEndDate());
-        assertEquals(status,actualData.getStatus());
-
+        assertEquals(startDate, actualData.getStartDate());
+        assertEquals(endDate, actualData.getEndDate());
+        assertEquals(status, actualData.getStatus());
 
 
     }
