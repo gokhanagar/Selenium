@@ -88,6 +88,6 @@ public class US010 {
         List<Object> expectedAppointmentStatus = new ArrayList<>();
         expectedAppointmentStatus.add("PENDING");
         Assert.assertTrue("STATUS UYUSMUYOR", actualAppointmentStatus.containsAll(expectedAppointmentStatus));
-        
+
     }
 }
