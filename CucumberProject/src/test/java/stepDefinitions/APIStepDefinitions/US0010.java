@@ -31,6 +31,8 @@ public class US0010 {
     }
 
 
+    
+
     @Then("user validates {string}{string}, {string}, {string}, {string}")
     public void userValidates(String id, String patientId, String startDate, String endDate, String status) {
         Appointment actualData = response.as(Appointment.class);
