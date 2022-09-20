@@ -30,7 +30,6 @@ public class US0010 {
 
     }
 
-
     
 
     @Then("user validates {string}{string}, {string}, {string}, {string}")
