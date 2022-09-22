@@ -11,6 +11,7 @@ import utilities.Driver;
 
 public class AmazonStepDefinitions {
     AmazonPage amazonPage = new AmazonPage();
+
     @Given("kullanici amazon anasayfasina")
     public void kullaniciAmazonSayfasinda() {
 
@@ -86,7 +87,7 @@ public class AmazonStepDefinitions {
     public void kullaniciSaniyeBekler(int istenenSaniye) {
 
         try {
-            Thread.sleep(istenenSaniye*1000);
+            Thread.sleep(istenenSaniye * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -94,7 +95,7 @@ public class AmazonStepDefinitions {
 
     @And("url'in {string} icerdigini test eder")
     public void urlInIcerdiginiTestEder(String istenenKelime) {
-        String actualUrl =Driver.getDriver().getCurrentUrl();
+        String actualUrl = Driver.getDriver().getCurrentUrl();
         Assert.assertTrue(actualUrl.contains(istenenKelime));
 
     }
