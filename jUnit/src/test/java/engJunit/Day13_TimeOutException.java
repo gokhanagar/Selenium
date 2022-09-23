@@ -14,15 +14,16 @@ import java.time.Duration;
 public class Day13_TimeOutException {
 
     WebDriver driver;
+
     @Before
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
     @Test
-    public void timeOutExceptionTest(){
+    public void timeOutExceptionTest() {
         driver.get("https://www.carettahotel.com/");
 //        Creating web driver wait object
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
