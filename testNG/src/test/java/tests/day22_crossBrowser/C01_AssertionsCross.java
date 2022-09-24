@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import tests.utilities.Driver;
 import tests.utilities.TestBaseCross;
 
 public class C01_AssertionsCross extends TestBaseCross {
@@ -28,6 +29,9 @@ public class C01_AssertionsCross extends TestBaseCross {
         Assert.assertTrue(sonucYaziElementi.isDisplayed());
         // 6- arama sonucunun Nutella icerdigini test edin
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
+
+
+
 
     }
 

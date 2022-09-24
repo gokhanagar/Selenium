@@ -13,6 +13,7 @@ public class C07_SoftAssert extends TestBase {
 
     @Test
     public void test01() {
+
         // 1. “http://zero.webappsecurity.com/” Adresine gidin
         driver.get("http://zero.webappsecurity.com/");
         // 2. Sign in butonuna basin
