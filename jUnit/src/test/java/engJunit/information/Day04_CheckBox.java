@@ -15,8 +15,9 @@ import java.time.Duration;
 public class Day04_CheckBox {
 
     WebDriver driver;
+
     @Before
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -34,12 +35,12 @@ public class Day04_CheckBox {
         WebElement checkbox2 = driver.findElement(By.xpath("(//input[@type='checkbox'])[2]"));
 //        Then click on checkbox1 if box is NOT selected
         Thread.sleep(5000);
-        if (!checkbox1.isSelected()){//if checkbox1 is not selected
+        if (!checkbox1.isSelected()) {//if checkbox1 is not selected
             checkbox1.click();
         }
         Thread.sleep(5000);
 //        Then click on checkbox2 if box is not selected
-        if(!checkbox2.isSelected()) {//if checkbox2 is not selected
+        if (!checkbox2.isSelected()) {//if checkbox2 is not selected
             checkbox2.click();
         }
 
@@ -48,7 +49,7 @@ public class Day04_CheckBox {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }
