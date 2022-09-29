@@ -32,8 +32,7 @@ public class Day02_ThreadSleep {
          *
          * This wait throws acception so add exception to method signature or use try catch
          * */
-
-
+        
     }
 
 }
