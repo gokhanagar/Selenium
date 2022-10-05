@@ -16,8 +16,9 @@ import java.time.Duration;
 public class Day04_RadioButton {
     WebDriver driver;
     Faker faker = new Faker();
+
     @Before
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -26,7 +27,7 @@ public class Day04_RadioButton {
     }
 
     @Test
-    public void radio(){
+    public void radio() {
 //        Create a class : RadioButton
 //        Complete the following task
 //        Go to https://www.facebook.com/
