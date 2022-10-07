@@ -10,8 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day04_xpath_css {
     WebDriver driver;
+
     @Before
-    public void setUp(){
+    public void setUp() {
 //        Prerequisites
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -20,8 +21,9 @@ public class Day04_xpath_css {
 //        user goes to http://a.testaddressbook.com/sign_in
         driver.get("http://a.testaddressbook.com/sign_in");
     }
+
     @Test
-    public void xpath_css(){
+    public void xpath_css() {
         /*Locating username, password, and button using xpath*/
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("testtechproed@gmail.com");
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Test1234!");
@@ -29,7 +31,7 @@ public class Day04_xpath_css {
     }
 
     @Test
-    public void css(){
+    public void css() {
         /*1. Locationg username, password, and button usign cssSelector
         There is no // 2. There is no @ symbol */
         driver.findElement(By.cssSelector("input[type='email']")).sendKeys("testtechproed@gmail.com");
@@ -39,9 +41,10 @@ public class Day04_xpath_css {
         driver.findElement(By.cssSelector("input[type='password']")).sendKeys("Test1234!");
         driver.findElement(By.cssSelector("input[type='submit']")).click();
     }
-//2:05 pm
+
+    //2:05 pm
     @After
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 
