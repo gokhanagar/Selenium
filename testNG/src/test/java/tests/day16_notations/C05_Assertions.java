@@ -9,7 +9,7 @@ import tests.utilities.TestBase;
 
 public class C05_Assertions extends TestBase {
 
-    @Test (groups ="grup2")
+    @Test(groups = "grup2")
     public void test01() {
 
         // 1- amazon anasayfaya gidin
