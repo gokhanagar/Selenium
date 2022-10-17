@@ -17,7 +17,7 @@ public class Day15_AddressBookLoginTest {
         addressBookLoginPage.username.sendKeys(ConfigReader.getProperty("address_username"));
         addressBookLoginPage.password.sendKeys(ConfigReader.getProperty("address_pass"));
         addressBookLoginPage.loginButton.click();
-        
+
     }
 
 }
