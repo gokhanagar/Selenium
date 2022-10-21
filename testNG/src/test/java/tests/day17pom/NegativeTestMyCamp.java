@@ -8,8 +8,9 @@ import tests.utilities.Driver;
 
 public class NegativeTestMyCamp {
     HotelMyCampPage hotelmycamp = new HotelMyCampPage();
+
     @Test
-    public void test01(){
+    public void test01() {
 
         //https://www.hotelmycamp.com/ adresine git
         Driver.getDriver().get("https://www.hotelmycamp.com/");
@@ -21,7 +22,7 @@ public class NegativeTestMyCamp {
         hotelmycamp.userNameTexti.sendKeys("manager1");
 
         //test data username: manager1!
-        hotelmycamp.passwordTexti.sendKeys("manager1!"+ Keys.ENTER);
+        hotelmycamp.passwordTexti.sendKeys("manager1!" + Keys.ENTER);
 
 
         //Degerleri girildiginde sayfaya girilemedigini test et
@@ -31,22 +32,6 @@ public class NegativeTestMyCamp {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
