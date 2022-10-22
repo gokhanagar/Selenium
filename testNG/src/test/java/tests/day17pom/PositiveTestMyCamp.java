@@ -46,15 +46,4 @@ public class PositiveTestMyCamp {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
 }
