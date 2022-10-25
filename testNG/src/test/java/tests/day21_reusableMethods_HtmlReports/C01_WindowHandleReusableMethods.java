@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.utilities.Driver;
 import tests.utilities.ReusableMethods;
+
 import java.util.Set;
 
 public class C01_WindowHandleReusableMethods {
@@ -33,6 +34,7 @@ public class C01_WindowHandleReusableMethods {
         Assert.assertEquals(actualTitle, expectedTitle);
         Driver.closeDriver();
     }
+
     @Test
     public void test02() {
         //● https://the-internet.herokuapp.com/windows adresine gidin.
