@@ -10,11 +10,13 @@ import java.io.IOException;
 public class C02_ScreenShotReusableMethod {
 
     @Test
-    public void test01() throws IOException{
+    public void test01() throws IOException {
         // amazon sayfasina gidip fotografini cekelim
 
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         ReusableMethods.getScreenshot("amazon");
         Driver.closeDriver();
+
+
     }
 }
