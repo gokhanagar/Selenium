@@ -35,16 +35,3 @@ public class C01_AssertionsCross extends TestBaseCross {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
