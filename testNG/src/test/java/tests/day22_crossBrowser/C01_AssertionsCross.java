@@ -31,8 +31,6 @@ public class C01_AssertionsCross extends TestBaseCross {
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
 
 
-
-
     }
 
 
