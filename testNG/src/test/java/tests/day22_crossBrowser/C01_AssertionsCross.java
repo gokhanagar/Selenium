@@ -31,7 +31,7 @@ public class C01_AssertionsCross extends TestBaseCross {
         // 5- arama yapildigini test edin
         WebElement sonucYaziElementi = driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
         Assert.assertTrue(sonucYaziElementi.isDisplayed());
-        
+
         // 6- arama sonucunun Nutella icerdigini test edin
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
 
