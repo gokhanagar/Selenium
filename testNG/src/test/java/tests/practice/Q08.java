@@ -36,16 +36,21 @@ public class Q08 {
 
     @Test
     public void test() throws InterruptedException {
+
         // Open google home page https://www.google.com/
         driver.get("https://www.google.com/");
+
         // On the same class, Navigate to amazon home page https://www.amazon.com/
         driver.navigate().to("https://www.amazon.com/");
+
         // Navigate back to google
         driver.navigate().back();
         Thread.sleep(5000);
+
         // Navigate forward to amazon
         driver.navigate().forward();
         Thread.sleep(5000);
+
         // Refresh the page
         driver.navigate().refresh();
         System.out.println("ALL OK");
