@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Q01 {
+public class Q08 {
 
     // ...Exercise1...
     // Create a new class under Q1
@@ -27,7 +27,7 @@ public class Q01 {
     WebDriver driver;
 
     @Before
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -52,23 +52,9 @@ public class Q01 {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
