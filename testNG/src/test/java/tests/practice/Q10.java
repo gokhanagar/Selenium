@@ -24,8 +24,9 @@ public class Q10 {
     // Verify the result
     // Print the result
     WebDriver driver;
+
     @Before
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -48,12 +49,12 @@ public class Q10 {
 
         // Verify the result
         String result = driver.findElement(By.xpath("//span[@id='answer']")).getText();
-        Assert.assertEquals("55",result);
+        Assert.assertEquals("55", result);
         Thread.sleep(5000);
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }
