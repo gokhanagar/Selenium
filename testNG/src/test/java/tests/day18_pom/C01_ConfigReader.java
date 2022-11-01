@@ -15,5 +15,4 @@ public class C01_ConfigReader {
         Driver.closeDriver();
     }
 
-
 }
