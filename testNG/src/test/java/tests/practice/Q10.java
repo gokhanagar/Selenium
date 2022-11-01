@@ -51,6 +51,7 @@ public class Q10 {
         String result = driver.findElement(By.xpath("//span[@id='answer']")).getText();
         Assert.assertEquals("55", result);
         Thread.sleep(5000);
+
     }
 
     @After
