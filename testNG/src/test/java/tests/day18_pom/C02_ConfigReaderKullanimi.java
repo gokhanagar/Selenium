@@ -9,7 +9,7 @@ import tests.utilities.Driver;
 public class C02_ConfigReaderKullanimi {
 
     @Test
-    public void test01(){
+    public void test01() {
         FacebookPage facebookPage = new FacebookPage();
 
         // facebook anasayfaya gidin
@@ -34,56 +34,7 @@ public class C02_ConfigReaderKullanimi {
         Driver.closeDriver();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
