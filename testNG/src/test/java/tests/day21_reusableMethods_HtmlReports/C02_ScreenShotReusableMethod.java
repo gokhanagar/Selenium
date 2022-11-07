@@ -11,6 +11,7 @@ public class C02_ScreenShotReusableMethod {
 
     @Test
     public void test01() throws IOException {
+        
         // amazon sayfasina gidip fotografini cekelim
 
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
@@ -19,4 +20,6 @@ public class C02_ScreenShotReusableMethod {
 
 
     }
+
+
 }
