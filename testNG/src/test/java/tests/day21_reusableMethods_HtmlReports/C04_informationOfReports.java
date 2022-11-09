@@ -13,14 +13,14 @@ public class C04_informationOfReports extends TestBaseRapor {
      * HTML reporting tool, it gives us HTML reports
      * It helps us to save our test steps and results
      * We can add also screenshots.
-     * <p>
+     *
      * We will create 3 objects
      * 1. ExtentReports extendReport => we need this object to start reporting.
      * extentReports.flush(); we use this method to generate and end the report
-     * <p>
+     *
      * 2.ExtentHtmlReporter extendHtmlReporter => it helps us to configuration of reports.
      * We will use it to set the path where report will be saved
-     * <p>
+     *
      * 3.ExtentTest extentTest => To add information, to add logs.
      * We will add some explanation to our test steps
      */
