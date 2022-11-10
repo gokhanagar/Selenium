@@ -13,6 +13,7 @@ public class C01_AssertionsCross extends TestBaseCross {
 
     @Test
     public void test01() {
+
         // 1- amazon anasayfaya gidin
         driver.get("https://www.amazon.com");
 
@@ -37,6 +38,5 @@ public class C01_AssertionsCross extends TestBaseCross {
 
 
     }
-
 
 }
