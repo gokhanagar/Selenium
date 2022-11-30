@@ -31,4 +31,5 @@ public class Q2_DependsOn extends TestBase {
     public void amazonTest(){
         driver.get("http://www.amazon.com");
     }
+
 }
