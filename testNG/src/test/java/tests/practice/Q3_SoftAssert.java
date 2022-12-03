@@ -26,7 +26,7 @@ public class Q3_SoftAssert {
     // Verify item prices are sorted from low to high with hard Assert
 
     @Test
-    public void sauceDemoSoft(){
+    public void sauceDemoSoft() {
         Driver.getDriver().get("https://www.saucedemo.com/");
 
         SauceDemoPage sdpage = new SauceDemoPage();
@@ -34,22 +34,22 @@ public class Q3_SoftAssert {
         sdpage.password.sendKeys("secret_sauce");
         sdpage.loginButton.click();
 
-        Select select =new Select(sdpage.dropDown);
+        Select select = new Select(sdpage.dropDown);
         select.selectByVisibleText("Price (low to high)");
 
         String expected = "PRICE (LOW TO HIGH)";
         String actual = select.getFirstSelectedOption().getText();
         String actual2 = Driver.getDriver().findElement(By.className("active_option")).getText();
-        SoftAssert softAssert=new SoftAssert();
-        softAssert.assertEquals(actual,expected);
-        softAssert.assertEquals(actual2,expected);
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(actual, expected);
+        softAssert.assertEquals(actual2, expected);
         softAssert.assertAll();
 
     }
 
 
     @Test
-    public void sauceDemoHard(){
+    public void sauceDemoHard() {
         Driver.getDriver().get("https://www.saucedemo.com/");
 
         SauceDemoPage sdpage = new SauceDemoPage();
@@ -57,12 +57,12 @@ public class Q3_SoftAssert {
         sdpage.password.sendKeys("secret_sauce");
         sdpage.loginButton.click();
 
-        Select select =new Select(sdpage.dropDown);
+        Select select = new Select(sdpage.dropDown);
         select.selectByIndex(2);
         ArrayList<Double> urunlerDouble = new ArrayList<>();
 
-        for (WebElement each: sdpage.urunler){
-           // String fiyatStr = each.getText().replaceAll("$", "");
+        for (WebElement each : sdpage.urunler) {
+            // String fiyatStr = each.getText().replaceAll("$", "");
             String fiyatStr = each.getText().replaceAll("^\\D", "");
             urunlerDouble.add(Double.parseDouble(fiyatStr));
         }
@@ -70,7 +70,7 @@ public class Q3_SoftAssert {
         ArrayList<Double> kontrolListe = new ArrayList<>(urunlerDouble);
         Collections.sort(kontrolListe);
 
-        Assert.assertEquals(kontrolListe,urunlerDouble);
+        Assert.assertEquals(kontrolListe, urunlerDouble);
 
     }
 }
