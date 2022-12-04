@@ -66,4 +66,3 @@ public class Q4_Alert_DependsOn  {
     bu kullanim sayesinde switchto() yazmamiza gerek kalmaz
      */
 }
-
