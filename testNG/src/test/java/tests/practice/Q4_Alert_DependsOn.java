@@ -8,7 +8,7 @@ import pages.WebDriverUniversityPage;
 import tests.utilities.Driver;
 
 
-public class Q4_Alert_DependsOn  {
+public class Q4_Alert_DependsOn {
 
        /*
      // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin
@@ -29,28 +29,28 @@ public class Q4_Alert_DependsOn  {
  */
 
     @Test
-    public void alert1(){
+    public void alert1() {
         Driver.getDriver().get("http://webdriveruniversity.com/Popup-Alerts/index.html");
 
         WebDriverUniversityPage wdup = new WebDriverUniversityPage();
         wdup.javaScriptAlert.click();
         String actualMessage = Driver.getDriver().switchTo().alert().getText();
-        String expectedMessage ="I am an alert box!";
+        String expectedMessage = "I am an alert box!";
         Assert.assertEquals(actualMessage, expectedMessage);
 
         Driver.getDriver().switchTo().alert().accept();
     }
 
-    @Test(dependsOnMethods="alert1")
-    public void alert2(){
+    @Test(dependsOnMethods = "alert1")
+    public void alert2() {
         Driver.getDriver().get("http://webdriveruniversity.com/Popup-Alerts/index.html");
 
         WebDriverUniversityPage wdup = new WebDriverUniversityPage();
         wdup.javaScriptConfirmBox.click();
         Alert alert = Driver.getDriver().switchTo().alert();
 
-        String expectedMessage= "Press a button!";
-        Assert.assertEquals(alert.getText(),expectedMessage);
+        String expectedMessage = "Press a button!";
+        Assert.assertEquals(alert.getText(), expectedMessage);
 
         alert.dismiss();
         Assert.assertTrue(wdup.yaziElementi.isDisplayed());
