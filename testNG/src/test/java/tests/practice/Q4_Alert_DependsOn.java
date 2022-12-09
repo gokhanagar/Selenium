@@ -65,4 +65,6 @@ public class Q4_Alert_DependsOn {
      alert.getText();
     bu kullanim sayesinde switchto() yazmamiza gerek kalmaz
      */
+
+
 }
