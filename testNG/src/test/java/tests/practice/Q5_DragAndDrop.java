@@ -12,6 +12,7 @@ public class Q5_DragAndDrop {
 
     @Test
     public void test() {
+
         Driver.getDriver().get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
         DHtmlGoodiesPage dhtmlpage = new DHtmlGoodiesPage();
         Actions actions = new Actions(Driver.getDriver());
