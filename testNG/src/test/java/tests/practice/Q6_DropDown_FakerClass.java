@@ -11,7 +11,6 @@ public class Q6_DropDown_FakerClass extends TestBase {
 
     //twitter a faker class kullanarak mail ile kayit olmaya calisiniz
     //actions class kullanmayin twitteri deneyen instagram i denesin
-
     // Not :bilerek page class yapmadim, derste FaceBook uzerine calismissnz karissin istemedim, siz isterseniz uyarlayabilirisniz
 
     @Test
