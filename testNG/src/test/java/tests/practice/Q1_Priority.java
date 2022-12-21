@@ -13,7 +13,7 @@ public class Q1_Priority {
       enabled = false  methodu : Testi gormezden gelmek icin @Test in yanina    '(enabled = false)' fonksiyonunu kullaniriz.
      */
 
-    
+
     @Test(priority = 3000)
     public void b() {
         System.out.println("b");
