@@ -33,6 +33,7 @@ public class Q09 {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
+
     }
 
     @Test
