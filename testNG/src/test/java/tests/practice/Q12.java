@@ -56,4 +56,6 @@ public class Q12 extends TestBase {
         // press the apply button
         driver.findElement(By.xpath("//button[@id='send']"));
     }
+
+
 }

@@ -27,7 +27,7 @@ public class Q11 {
 2.deleteButtonsAndValidate()
 */
 
-    
+
     WebDriver driver;
 
     @Before
