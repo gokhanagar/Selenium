@@ -31,6 +31,7 @@ public class C04_FileDownload extends TestBase {
 
         // geriye o dosya yolundaki dosyanin var oldugunu assert edelim
         Assert.assertTrue(Files.exists(Paths.get(arananDosyaYolu)));
+        
     }
 
 
