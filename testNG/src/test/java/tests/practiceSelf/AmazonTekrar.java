@@ -59,4 +59,6 @@ public class AmazonTekrar extends TestBaseRapor {
         extentTest.info("Yazi olan sutun sayisi alindi = " + actualSutunSayisi);
         Assert.assertEquals(expectedSutunSayisi, actualSutunSayisi);
     }
+
+    
 }
