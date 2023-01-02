@@ -14,6 +14,7 @@ import java.util.List;
 
 
 public class AmazonTekrar extends TestBaseRapor {
+    
     AmazonPage amazon = new AmazonPage();
 
     @Test
@@ -60,5 +61,5 @@ public class AmazonTekrar extends TestBaseRapor {
         Assert.assertEquals(expectedSutunSayisi, actualSutunSayisi);
     }
 
-    
+
 }
