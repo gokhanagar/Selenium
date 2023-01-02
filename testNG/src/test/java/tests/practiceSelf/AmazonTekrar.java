@@ -14,7 +14,7 @@ import java.util.List;
 
 
 public class AmazonTekrar extends TestBaseRapor {
-    
+
     AmazonPage amazon = new AmazonPage();
 
     @Test
