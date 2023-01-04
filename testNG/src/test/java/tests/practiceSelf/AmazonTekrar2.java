@@ -48,6 +48,7 @@ public class AmazonTekrar2 extends TestBaseRapor {
         System.out.println("Hucrelerdeki amazon yazisi adedi = "+actualAmazonYazisiAdedi);
         int expectedAmazonYazisiAdedi = 9;
         Assert.assertEquals(expectedAmazonYazisiAdedi,actualAmazonYazisiAdedi);
+        
     }
 
 }
