@@ -16,12 +16,14 @@ public class AmazonTekrar2 extends TestBaseRapor {
 
     @Test
     public void amazonHucreTesti(){
+
         //➢ AmazonPage sayfasinda istedigim satir ve sutun sayisi ile cagirdigimda
         //bana hucredeki yaziyi getirecek bir method olusturun
         //➢ Tests paketi altinda yeni bir class olusturun: D26_AmazonHucreTesti
         //➢ Bu class’in altinda bir test method olusturun : hucretesti() ve
         //webtable’da 3. satir 2.sutundaki yazinin “Home Services” yazisi
         //icerdigini test edin
+
         extentTest = extentReports.createTest("amazonTable", "Satir ve Sutun Raporu");
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         AmazonPage.enAltaGit();
@@ -42,13 +44,14 @@ public class AmazonTekrar2 extends TestBaseRapor {
         }
         Driver.closeDriver();
     }
+
     private void amazonYazisi() {
         int actualAmazonYazisiAdedi = (int) amazon.hucreler.
                 stream().filter(t -> t.getText().contains("Amazon")).count();
         System.out.println("Hucrelerdeki amazon yazisi adedi = "+actualAmazonYazisiAdedi);
         int expectedAmazonYazisiAdedi = 9;
         Assert.assertEquals(expectedAmazonYazisiAdedi,actualAmazonYazisiAdedi);
-        
+
     }
 
 }
