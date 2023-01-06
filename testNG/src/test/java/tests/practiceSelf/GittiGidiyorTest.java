@@ -25,6 +25,7 @@ public class GittiGidiyorTest {
         gittiGidiyorPage.aramaKutusu.sendKeys("bilgisayar"+ Keys.ENTER);
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().toString().contains("bilgisayar"));
     }
+    
     @Test
     @Order(2)
     public void ikinci_sayfaya_git_kontrol_et() throws InterruptedException {
