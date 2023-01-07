@@ -14,18 +14,19 @@ import java.util.Random;
 
 public class GittiGidiyorTest {
 
-    GittiGidiyorPage gittiGidiyorPage=new GittiGidiyorPage();
-    Actions actions=new Actions(Driver.getDriver());
-    ArrayList<String> secilenUrunList=new ArrayList<>();
+    GittiGidiyorPage gittiGidiyorPage = new GittiGidiyorPage();
+    Actions actions = new Actions(Driver.getDriver());
+    ArrayList<String> secilenUrunList = new ArrayList<>();
     String fiyat;
+
     @Test
     @Order(1)
     public void bilgisayar_arat() {
         Driver.getDriver().get(ConfigReader.getProperty("gittigidiyorUrl"));
-        gittiGidiyorPage.aramaKutusu.sendKeys("bilgisayar"+ Keys.ENTER);
+        gittiGidiyorPage.aramaKutusu.sendKeys("bilgisayar" + Keys.ENTER);
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().toString().contains("bilgisayar"));
     }
-    
+
     @Test
     @Order(2)
     public void ikinci_sayfaya_git_kontrol_et() throws InterruptedException {
@@ -38,12 +39,12 @@ public class GittiGidiyorTest {
 
     @Test
     @Order(3)
-    public void rastgele_ürün_sec_sepete_ekle(){
+    public void rastgele_ürün_sec_sepete_ekle() {
         Random rnd = new Random();
         int sayi = rnd.nextInt(gittiGidiyorPage.urunlerList.size());
-        gittiGidiyorPage.urunlerList.get(sayi+1).click();
+        gittiGidiyorPage.urunlerList.get(sayi + 1).click();
         gittiGidiyorPage.cookies.click();
-        fiyat=gittiGidiyorPage.urunfiyat.getText();
+        fiyat = gittiGidiyorPage.urunfiyat.getText();
         gittiGidiyorPage.sepeteEkle.click();
         //Assert.assertTrue(gittiGidiyorPage.sepetegit.isDisplayed());
     }
@@ -52,8 +53,8 @@ public class GittiGidiyorTest {
     @Order(4)
     public void secilen_urun_fiyat_ile_sepettekini_karsilastir() {
         gittiGidiyorPage.sepetegit.click();
-        String sepettekiFiyati=gittiGidiyorPage.sepettekiFiyat.getText();
-        Assert.assertEquals(fiyat,sepettekiFiyati);
+        String sepettekiFiyati = gittiGidiyorPage.sepettekiFiyat.getText();
+        Assert.assertEquals(fiyat, sepettekiFiyati);
     }
 
     @Test
@@ -70,63 +71,6 @@ public class GittiGidiyorTest {
         Thread.sleep(1000);
         Assert.assertTrue(gittiGidiyorPage.bosSepet.isDisplayed());
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
