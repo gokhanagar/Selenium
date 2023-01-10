@@ -19,6 +19,7 @@ public class Q2 {
 
     @Test
     public void test() throws IOException {
+
         N11Page n11Page = new N11Page();
         //n11 sitesine giris yapin
         Driver.getDriver().get(ConfigReader.getProperty("n11Url"));
