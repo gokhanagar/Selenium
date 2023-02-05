@@ -21,7 +21,7 @@ public class DosyaOkuma {
 
         File folder = new File(folderPath);
 
-        File [] files = folder.listFiles();
+        File[] files = folder.listFiles();
 
         Arrays.sort(files, Comparator.comparingLong(File::lastModified).reversed());
 
@@ -39,7 +39,7 @@ public class DosyaOkuma {
 
         System.out.println(actualData);
 
-        Assert.assertEquals(actualData,expectedData);
+        Assert.assertEquals(actualData, expectedData);
 
         fis.close();
 
@@ -47,39 +47,6 @@ public class DosyaOkuma {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
