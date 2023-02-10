@@ -20,7 +20,6 @@ public class DosyaOkuma {
         File folder = new File(folderPath);
 
         File [] files = folder.listFiles();
-
         Arrays.sort(files, Comparator.comparingLong(File::lastModified).reversed());
 
         System.out.println(files[0]);
