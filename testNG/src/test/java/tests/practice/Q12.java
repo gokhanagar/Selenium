@@ -11,11 +11,11 @@ import java.util.List;
 
 public class Q12 extends TestBase {
 
-// go to the URL https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
-// click on the second emoji
-// click all the second emoji elements
-// fill the form,(Fill the form with the texts you want)
-// press the apply button
+    // go to the URL https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
+    // click on the second emoji
+    // click all the second emoji elements
+    // fill the form,(Fill the form with the texts you want)
+    // press the apply button
 
 
     @Test
