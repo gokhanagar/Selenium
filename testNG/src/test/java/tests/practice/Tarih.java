@@ -42,6 +42,15 @@ public static String stringDateFormat(String date) {
  */
 
 
+/*
+Faker faker = new Faker();
+
+Integer day=faker.number().numberBetween(1,28);
+Integer month=faker.number().numberBetween(1,12);
+Integer year=faker.number().numberBetween(2024,2099);
+
+String dateOfAppointmentFaker= day+"/"+month+"/"+year;
+ */
 
 
 
@@ -59,10 +68,4 @@ public static String stringDateFormat(String date) {
 
 
 
-
-
-
-
-
-    
 }
