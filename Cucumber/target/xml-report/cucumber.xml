@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.872">
-    <testcase classname="grid_feature" name="TC01_running_on_chrome" time="15.58">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="36.42">
+    <testcase classname="US1003 User tests www.automationexercise.com" name="SN3 user tests that it is not possible to log in with the wrong mail and password." time="18.417">
         <system-out>
-            <![CDATA[Given user is on the application_URL with chrome............................passed
-And verify the title of the page is "Blue Rental Car | Just another WordPress site".passed
-Then close the remote driver................................................passed
+            <![CDATA[Given Navigate to url "autoUrl".............................................passed
+Then Verify that home page is visible successfully..........................passed
+And wait 1 second...........................................................passed
+And Click on SignupLogin button.............................................passed
+And Verify Login to your account is visible.................................passed
+And wait 1 second...........................................................passed
+And Enter incorrect email address and password..............................passed
+And wait 1 second...........................................................passed
+And Click login button......................................................passed
+And wait 1 second...........................................................passed
+And Verify error Your email or password is incorrect is visible.............passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="US1005 dogru kullanici adi ve sifre ile giris yapilabilmeli" name="TC08 positive login test" time="17.58">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class='nav-link'])[7]&quot;}&#10;  (Session info: chrome=110.0.5481.180)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7467687a32909b3a24a8403b355a1dd5, findElement {using=xpath, value=(//a[@class='nav-link'])[7]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52204/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7467687a32909b3a24a8403b355a1dd5" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given kullanici "hmcUrl" anasayfasina.......................................passed
+Then Login yazisina tiklar..................................................failed
+And gecerli username girer..................................................skipped
+And gecerli password girer..................................................skipped
+And login butonuna basar....................................................skipped
+Then sayfaya giris yaptigini kontrol eder...................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='nav-link'])[7]"}
+  (Session info: chrome=110.0.5481.180)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7467687a32909b3a24a8403b355a1dd5, findElement {using=xpath, value=(//a[@class='nav-link'])[7]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52204/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7467687a32909b3a24a8403b355a1dd5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at stepDefinitions.HMCStepDefinitions.loginYazisinaTiklar(HMCStepDefinitions.java:15)
+	at ✽.Login yazisina tiklar(file:///C:/Users/gokha/IdeaProjects/Cucumber/src/test/resources/features/US1005_hotelMyCampPositiveLogin.feature:6)
+]]>
+        </failure>
     </testcase>
 </testsuite>

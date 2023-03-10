@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.014">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="9.605">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="32.114">
+    <testcase classname="US1004 User tests www.automationexercise.com" name="SN4 user logs in with the correct e-mail address." time="24.628">
+        <system-out>
+            <![CDATA[Given Navigate to url "autoUrl".............................................passed
+Then Verify that home page is visible successfully..........................passed
+And wait 1 second...........................................................passed
+And Click on SignupLogin button.............................................passed
+And Verify Login to your account is visible.................................passed
+And wait 1 second...........................................................passed
+And Enter correct email address and password................................passed
+And wait 1 second...........................................................passed
+And Click login button......................................................passed
+And wait 1 second...........................................................passed
+And Verify that Logged in as username is visible............................passed
+And Click Logout button.....................................................passed
+And Verify that user is navigated to login page.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="7.092">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasina.........................................passed
 Then kullanici "bicycle" icin arama yapar...................................passed
