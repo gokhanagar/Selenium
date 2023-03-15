@@ -62,6 +62,4 @@ String dateOfAppointmentFaker= day+"/"+month+"/"+year;
 
 
 
-
-
 }
