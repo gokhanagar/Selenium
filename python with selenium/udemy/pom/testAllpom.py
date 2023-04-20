@@ -39,6 +39,7 @@ class TestHome(TestPyOrgBase):
         self.home.assert_elem_text(CommonPageLocators.PY3_DOC_BUTTON,"Python Docs")
         self.home.click(CommonPageLocators.PY3_DOC_BUTTON)
         assert self.driver.current_url == 'https://docs.python.org/3/'
+        
 
 
 

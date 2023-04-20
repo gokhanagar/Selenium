@@ -15,58 +15,57 @@ class alert_base(unittest.TestCase):
     """
 
     @classmethod
-    def setUpClass(self):
-        self.driver = webdriver.Chrome()
-        self.driver.maximize_window()
-        self.driver.implicitly_wait(10)
-
+    def setUpClass(cls):
+        cls.driver = webdriver.Chrome()
+        cls.driver.maximize_window()
+        cls.driver.implicitly_wait(10)
+        cls.driver.get("https://the-internet.herokuapp.com/javascript_alerts")
    
 
 
-class TestHome(TestPyOrgBase):
+class TestHome(alert_base):
     """
     TBD
     """
-    
-    def setUp(self):
-        #super().setUp()
-        self.home = HomePage(self.driver)
-
-    @unittest.skip('demonstrating a skipping of a test case')
-    def test_TC001_py3_doc_button(self):
-        self.home.hover_to(CommonPageLocators.DOC)
-        self.home.assert_elem_text(CommonPageLocators.PY3_DOC_BUTTON,"Python Docs")
-        self.home.click(CommonPageLocators.PY3_DOC_BUTTON)
-        assert self.driver.current_url == 'https://docs.python.org/3/'
-
-
-
-    def test_TC002_blahblah_search(self):
-        self.home.search_for("blahblah")
-        self.home.assert_elem_text(CommonPageLocators.SEARCH_RESULT_LIST,"No results found.")
-
-    def test_TC004_assert_title(self):
-        self.assertEqual(self.home.driver.title, "Welcome to Python.org")
         
+    def test_TC001_accept_alert(self):
+        self.driver.find_element(By.XPATH,"//*[text()='Click for JS Alert']").click()
+        alert = Alert(self.driver)
+        print(alert.text)
+        alert.accept()
+
+        expected_result = "You successfully clicked an alert"
+        actual_result = self.driver.find_element(By.XPATH,"//p[@id='result']")
+
+        print(actual_result.text)
+        assert expected_result == actual_result.text    
+        time.sleep(3)
+
+    def test_TC002_dismiss_alert(self):
+        self.driver.find_element(By.XPATH,"//*[text()='Click for JS Confirm']").click()
+        alert = Alert(self.driver)
+        alert.dismiss()
+
+        expected_result = "successfully"
+        result_element = self.driver.find_element(By.ID,"result")
+
+        assert expected_result not in result_element.text
+        time.sleep(3)
 
 
+    def test_TC003_send_keys_alert(self):
+        self.driver.find_element(By.XPATH,"//*[text()='Click for JS Prompt']").click()
+        alert = Alert(self.driver)
+        alert.send_keys("Defne")
+        time.sleep(3)
+        alert.accept()
+        time.sleep(3)
+        expected_result = "Defne"
+        actual_result = self.driver.find_element(By.XPATH,"(//p)[2]")
+        print(actual_result.text)
 
-class TestAbout(TestPyOrgBase):
-    """
-    TBD
-    """
-
-    def setUp(self):
-        #super().setUp()
-        self.about = AboutPage(self.driver)
-
-    def test_TC003_verify_upcoming_events_section_present(self):
-        self.about.assert_elem_text(AboutPageLocators.UPCOMING_EVENTS,"Upcoming Events")
-        element =self.driver.find_element(By.XPATH,"//*[text()='Upcoming Events']")
-        print(element.text)
-
-    def test_TC005_assert_url(self):
-        self.assertTrue('about' in self.about.driver.current_url)
+        assert expected_result in actual_result.text
+        time.sleep(3)
 
 
 if __name__ == '__main__':

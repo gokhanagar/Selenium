@@ -1,0 +1,3547 @@
+[
+    {
+        "label": "inc_dec",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inc_dec",
+        "description": "inc_dec",
+        "detail": "inc_dec",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "time,unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time.unittest",
+        "description": "time.unittest",
+        "detail": "time.unittest",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "time,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time.",
+        "description": "time.",
+        "detail": "time.",
+        "documentation": {}
+    },
+    {
+        "label": "openpyxl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "AnasayfaLocators",
+        "importPath": "locators.locators",
+        "description": "locators.locators",
+        "isExtraImport": true,
+        "detail": "locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "AramaSayfasiLocators",
+        "importPath": "locators.locators",
+        "description": "locators.locators",
+        "isExtraImport": true,
+        "detail": "locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "UrunDetaySayfasiLocators",
+        "importPath": "locators.locators",
+        "description": "locators.locators",
+        "isExtraImport": true,
+        "detail": "locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "PageBase",
+        "importPath": "utilities.pageBase",
+        "description": "utilities.pageBase",
+        "isExtraImport": true,
+        "detail": "utilities.pageBase",
+        "documentation": {}
+    },
+    {
+        "label": "PageBase",
+        "importPath": "utilities.pageBase",
+        "description": "utilities.pageBase",
+        "isExtraImport": true,
+        "detail": "utilities.pageBase",
+        "documentation": {}
+    },
+    {
+        "label": "PageBase",
+        "importPath": "utilities.pageBase",
+        "description": "utilities.pageBase",
+        "isExtraImport": true,
+        "detail": "utilities.pageBase",
+        "documentation": {}
+    },
+    {
+        "label": "pytest,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest.",
+        "description": "pytest.",
+        "detail": "pytest.",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "AramaSayfasi",
+        "importPath": "pages.arama_sayfasi",
+        "description": "pages.arama_sayfasi",
+        "isExtraImport": true,
+        "detail": "pages.arama_sayfasi",
+        "documentation": {}
+    },
+    {
+        "label": "ddt",
+        "importPath": "ddt",
+        "description": "ddt",
+        "isExtraImport": true,
+        "detail": "ddt",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "importPath": "ddt",
+        "description": "ddt",
+        "isExtraImport": true,
+        "detail": "ddt",
+        "documentation": {}
+    },
+    {
+        "label": "unpack",
+        "importPath": "ddt",
+        "description": "ddt",
+        "isExtraImport": true,
+        "detail": "ddt",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelYardimcisi",
+        "importPath": "utilities.excelYardimcisi",
+        "description": "utilities.excelYardimcisi",
+        "isExtraImport": true,
+        "detail": "utilities.excelYardimcisi",
+        "documentation": {}
+    },
+    {
+        "label": "Anasayfa",
+        "importPath": "pages.anasayfa",
+        "description": "pages.anasayfa",
+        "isExtraImport": true,
+        "detail": "pages.anasayfa",
+        "documentation": {}
+    },
+    {
+        "label": "Anasayfa",
+        "importPath": "pages.anasayfa",
+        "description": "pages.anasayfa",
+        "isExtraImport": true,
+        "detail": "pages.anasayfa",
+        "documentation": {}
+    },
+    {
+        "label": "Urun_detay_sayfasi",
+        "importPath": "pages.urun_detay_sayfasi",
+        "description": "pages.urun_detay_sayfasi",
+        "isExtraImport": true,
+        "detail": "pages.urun_detay_sayfasi",
+        "documentation": {}
+    },
+    {
+        "label": "Urun_detay_sayfasi",
+        "importPath": "pages.urun_detay_sayfasi",
+        "description": "pages.urun_detay_sayfasi",
+        "isExtraImport": true,
+        "detail": "pages.urun_detay_sayfasi",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.wait",
+        "description": "selenium.webdriver.support.wait",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.wait",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "TestHome",
+        "importPath": "testAllpom",
+        "description": "testAllpom",
+        "isExtraImport": true,
+        "detail": "testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestAbout",
+        "importPath": "testAllpom",
+        "description": "testAllpom",
+        "isExtraImport": true,
+        "detail": "testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestHome",
+        "importPath": "testAllpom",
+        "description": "testAllpom",
+        "isExtraImport": true,
+        "detail": "testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestAbout",
+        "importPath": "testAllpom",
+        "description": "testAllpom",
+        "isExtraImport": true,
+        "detail": "testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "AboutPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "AdminPageLocators",
+        "importPath": "locators",
+        "description": "locators",
+        "isExtraImport": true,
+        "detail": "locators",
+        "documentation": {}
+    },
+    {
+        "label": "TestHome",
+        "importPath": "pom.testAllpom",
+        "description": "pom.testAllpom",
+        "isExtraImport": true,
+        "detail": "pom.testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestAbout",
+        "importPath": "pom.testAllpom",
+        "description": "pom.testAllpom",
+        "isExtraImport": true,
+        "detail": "pom.testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "ConcurrentTestSuite",
+        "importPath": "concurrencytest",
+        "description": "concurrencytest",
+        "isExtraImport": true,
+        "detail": "concurrencytest",
+        "documentation": {}
+    },
+    {
+        "label": "fork_for_tests",
+        "importPath": "concurrencytest",
+        "description": "concurrencytest",
+        "isExtraImport": true,
+        "detail": "concurrencytest",
+        "documentation": {}
+    },
+    {
+        "label": "unittest,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest.time",
+        "description": "unittest.time",
+        "detail": "unittest.time",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "importPath": "page",
+        "description": "page",
+        "isExtraImport": true,
+        "detail": "page",
+        "documentation": {}
+    },
+    {
+        "label": "AboutPage",
+        "importPath": "page",
+        "description": "page",
+        "isExtraImport": true,
+        "detail": "page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "importPath": "page",
+        "description": "page",
+        "isExtraImport": true,
+        "detail": "page",
+        "documentation": {}
+    },
+    {
+        "label": "EventFiringWebDriver",
+        "importPath": "selenium.webdriver.support.events",
+        "description": "selenium.webdriver.support.events",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.events",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractEventListener",
+        "importPath": "selenium.webdriver.support.events",
+        "description": "selenium.webdriver.support.events",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.events",
+        "documentation": {}
+    },
+    {
+        "label": "TestLogin",
+        "importPath": "testAll",
+        "description": "testAll",
+        "isExtraImport": true,
+        "detail": "testAll",
+        "documentation": {}
+    },
+    {
+        "label": "increment",
+        "kind": 2,
+        "importPath": "deneme.inc_dec",
+        "description": "deneme.inc_dec",
+        "peekOfCode": "def increment(x):\n    return x + 1\ndef decrement(x):\n    return x - 1",
+        "detail": "deneme.inc_dec",
+        "documentation": {}
+    },
+    {
+        "label": "decrement",
+        "kind": 2,
+        "importPath": "deneme.inc_dec",
+        "description": "deneme.inc_dec",
+        "peekOfCode": "def decrement(x):\n    return x - 1",
+        "detail": "deneme.inc_dec",
+        "documentation": {}
+    },
+    {
+        "label": "test_increment",
+        "kind": 2,
+        "importPath": "deneme.test_pytest",
+        "description": "deneme.test_pytest",
+        "peekOfCode": "def test_increment():\n    assert inc_dec.increment(3) == 4\n# This test is designed to fail for demonstration purposes.\ndef test_decrement():\n    assert inc_dec.decrement(5) == 4",
+        "detail": "deneme.test_pytest",
+        "documentation": {}
+    },
+    {
+        "label": "test_decrement",
+        "kind": 2,
+        "importPath": "deneme.test_pytest",
+        "description": "deneme.test_pytest",
+        "peekOfCode": "def test_decrement():\n    assert inc_dec.decrement(5) == 4",
+        "detail": "deneme.test_pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Test_TestIncrementDecrement",
+        "kind": 6,
+        "importPath": "deneme.test_unittest",
+        "description": "deneme.test_unittest",
+        "peekOfCode": "class Test_TestIncrementDecrement(unittest.TestCase):\n    def test_increment(self):\n        self.assertEqual(inc_dec.increment(3), 4)\n    # This test is designed to fail for demonstration purposes.\n    def test_decrement(self):\n        self.assertEqual(inc_dec.decrement(3), 4)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "deneme.test_unittest",
+        "documentation": {}
+    },
+    {
+        "label": "driver_method",
+        "kind": 6,
+        "importPath": "practice.day01_driver_method.driver_method",
+        "description": "practice.day01_driver_method.driver_method",
+        "peekOfCode": "class driver_method:\n    driver = webdriver.Chrome()\n    driver.get(\"https://www.amazon.com\")\n    driver.maximize_window()\n    print(\"actual title: \" , driver.title )\n    print(\"actual url: \" , driver.current_url )",
+        "detail": "practice.day01_driver_method.driver_method",
+        "documentation": {}
+    },
+    {
+        "label": "first_test",
+        "kind": 6,
+        "importPath": "practice.day01_driver_method.first_test",
+        "description": "practice.day01_driver_method.first_test",
+        "peekOfCode": "class first_test:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    # go to amazon url\n    driver.get(\"https://www.amazon.com\")\n    #check amazon title includes 'amazon'\n    search_word = \"Amazon\"\n    actual_title = driver.title\n    if(search_word in actual_title):\n        print(\"passed\")",
+        "detail": "practice.day01_driver_method.first_test",
+        "documentation": {}
+    },
+    {
+        "label": "get_page_source",
+        "kind": 6,
+        "importPath": "practice.day01_driver_method.get_page_source",
+        "description": "practice.day01_driver_method.get_page_source",
+        "peekOfCode": "class get_page_source:\n    driver = webdriver.Chrome()\n    driver.get(\"https://www.amazon.com\")\n    driver.maximize_window()\n    page_source = driver.page_source    \n    search_word = \"amazon\"\n    if(search_word in page_source):\n        print(\"page_source is passed\")\n    else:\n        print(\"search_word is absent test is failed\")",
+        "detail": "practice.day01_driver_method.get_page_source",
+        "documentation": {}
+    },
+    {
+        "label": "navigate",
+        "kind": 6,
+        "importPath": "practice.day01_driver_method.navigate",
+        "description": "practice.day01_driver_method.navigate",
+        "peekOfCode": "class navigate:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.get(\"https://www.amazon.com\")\n    time.sleep(2)\n    driver.get(\"https://www.facebook.com\")\n    time.sleep(2)\n    # go back to amazon\n    driver.back()\n    time.sleep(2)",
+        "detail": "practice.day01_driver_method.navigate",
+        "documentation": {}
+    },
+    {
+        "label": "find_elements",
+        "kind": 6,
+        "importPath": "practice.day02_locators.find_elements",
+        "description": "practice.day02_locators.find_elements",
+        "peekOfCode": "class find_elements:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\");\n    list = driver.find_elements(By.TAG_NAME,'a')\n    print(\"number of link: \" , len(list))",
+        "detail": "practice.day02_locators.find_elements",
+        "documentation": {}
+    },
+    {
+        "label": "locators",
+        "kind": 6,
+        "importPath": "practice.day02_locators.locators",
+        "description": "practice.day02_locators.locators",
+        "peekOfCode": "class locators:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    search_box = driver.find_element(By.NAME,'field-keywords')\n    search_box.send_keys(\"bicycle\")\n    search_box.send_keys(Keys.ENTER)",
+        "detail": "practice.day02_locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "locators_test",
+        "kind": 6,
+        "importPath": "practice.day02_locators.locators_",
+        "description": "practice.day02_locators.locators_",
+        "peekOfCode": "class locators_test:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"http://a.testaddressbook.com\")\n    # Click sign in button\n    signin = driver.find_element(By.LINK_TEXT,'Sign in')\n    WebDriverWait(driver,10).until(EC.element_to_be_clickable(signin)).click()\n    email_text_box = driver.find_element(By.ID,\"session_email\")\n    password_text_box = driver.find_element(By.NAME,\"session[password]\")",
+        "detail": "practice.day02_locators.locators_",
+        "documentation": {}
+    },
+    {
+        "label": "web_element",
+        "kind": 6,
+        "importPath": "practice.day02_locators.web_element",
+        "description": "practice.day02_locators.web_element",
+        "peekOfCode": "class web_element:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://amazon.com\")\n    search_box = driver.find_element(By.ID,'twotabsearchtextbox')\n    expected_tag_name = \"input\"\n    actual_tag_name = search_box.tag_name\n    print(actual_tag_name)\n    if(actual_tag_name == expected_tag_name):",
+        "detail": "practice.day02_locators.web_element",
+        "documentation": {}
+    },
+    {
+        "label": "web_element",
+        "kind": 6,
+        "importPath": "practice.day03_locate.amazon_search",
+        "description": "practice.day03_locate.amazon_search",
+        "peekOfCode": "class web_element:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://amazon.com\")\n    search_box = driver.find_element(By.ID,'twotabsearchtextbox')\n    WebDriverWait(driver,10).until(EC.element_to_be_clickable(search_box)).send_keys(\"city bike\")\n    search_box.send_keys(Keys.ENTER)\n    element_list = driver.find_elements(By.CLASS_NAME,\"sg-col-inner\")\n    result_text = element_list[0].text",
+        "detail": "practice.day03_locate.amazon_search",
+        "documentation": {}
+    },
+    {
+        "label": "css_selector",
+        "kind": 6,
+        "importPath": "practice.day03_locate.css_selector",
+        "description": "practice.day03_locate.css_selector",
+        "peekOfCode": "class css_selector:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"http://a.testaddressbook.com/sign_in\")\n    # locate email textbox\n    mail_text_box = driver.find_element(By.CSS_SELECTOR,\"#session_email\")\n    #Locate password textbox\n    password_text_box = driver.find_element(By.CSS_SELECTOR,\"#session_password\")\n    #Locate signin button",
+        "detail": "practice.day03_locate.css_selector",
+        "documentation": {}
+    },
+    {
+        "label": "xpath",
+        "kind": 6,
+        "importPath": "practice.day03_locate.xpath",
+        "description": "practice.day03_locate.xpath",
+        "peekOfCode": "class xpath:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/add_remove_elements/\")\n    # click add element button\n    add_button = driver.find_element(By.XPATH,\"//button[@onclick='addElement()']\")\n    WebDriverWait(driver,10).until(EC.element_to_be_clickable(add_button)).click()\n    # check delete button is visible\n    delete_button = driver.find_element(By.XPATH,\"//button[@class='added-manually']\")",
+        "detail": "practice.day03_locate.xpath",
+        "documentation": {}
+    },
+    {
+        "label": "assertions",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.assertions",
+        "description": "practice.day04_radio_button.assertions",
+        "peekOfCode": "class assertions:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    actualUrl = driver.current_url\n    assert \"amazon\" in actualUrl\n    actual_title = driver.title\n    assert \"facebook\" not in actual_title\n    time.sleep(5)",
+        "detail": "practice.day04_radio_button.assertions",
+        "documentation": {}
+    },
+    {
+        "label": "best_buy",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.best_buy_assertion",
+        "description": "practice.day04_radio_button.best_buy_assertion",
+        "peekOfCode": "class best_buy:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.bestbuy.com/\")\n    expectedUrl = \"https://www.bestbuy.com/\"\n    actualUrl = driver.current_url\n    assert actualUrl == expectedUrl\n    unwwanted_word = \"Rest\"\n    actual_title = driver.title",
+        "detail": "practice.day04_radio_button.best_buy_assertion",
+        "documentation": {}
+    },
+    {
+        "label": "check_box",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.check_box",
+        "description": "practice.day04_radio_button.check_box",
+        "peekOfCode": "class check_box:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/checkboxes\")\n    check_box1 = driver.find_element(By.XPATH,\"(//input[@type='checkbox'])[1]\")\n    check_box2 = driver.find_element(By.XPATH,\"(//input[@type='checkbox'])[2]\")\n    if (check_box1.is_selected != True ):\n        WebDriverWait(driver,10).until(EC.element_to_be_clickable(check_box1)).click()\n    time.sleep(3)",
+        "detail": "practice.day04_radio_button.check_box",
+        "documentation": {}
+    },
+    {
+        "label": "drop_down_menu",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.ddm",
+        "description": "practice.day04_radio_button.ddm",
+        "peekOfCode": "class drop_down_menu:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/dropdown\")\n    el = driver.find_element(By.XPATH,\"//select[@id='dropdown']\")\n    # for option in el.find_elements(By.TAG_NAME,'option'):\n    #    if option.text == 'Option 1':\n    #         option.click() # select() in earlier versions of webdriver\n    #         time.sleep(2)",
+        "detail": "practice.day04_radio_button.ddm",
+        "documentation": {}
+    },
+    {
+        "label": "drop_down",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.ddm2",
+        "description": "practice.day04_radio_button.ddm2",
+        "peekOfCode": "class drop_down:\n    driver = webdriver.Chrome()\n    driver.implicitly_wait(10)\n    driver.maximize_window()\n    driver.get(\"https://www.amazon.com\")\n    el = driver.find_element(By.XPATH,\"//select[@id='searchDropdownBox']\")\n    for option in el.find_elements(By.TAG_NAME,'option'):\n        if option.text == 'Books':\n             option.click() # select() in earlier versions of webdriver\n             time.sleep(2)",
+        "detail": "practice.day04_radio_button.ddm2",
+        "documentation": {}
+    },
+    {
+        "label": "radio_button",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.radio_button",
+        "description": "practice.day04_radio_button.radio_button",
+        "peekOfCode": "class radio_button:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.facebook.com\")\n    # click create an account\n    create_account_button = driver.find_element(By.XPATH,\"//*[text()='Yeni hesap oluştur']\")\n    WebDriverWait(driver,10).until(EC.element_to_be_clickable(create_account_button)).click()\n    female_button = driver.find_element(By.XPATH,\"//input[@value='1']\")\n    male_button = driver.find_element(By.XPATH,\"//input[@value='2']\")",
+        "detail": "practice.day04_radio_button.radio_button",
+        "documentation": {}
+    },
+    {
+        "label": "wrong_email",
+        "kind": 6,
+        "importPath": "practice.day04_radio_button.wrong_email",
+        "description": "practice.day04_radio_button.wrong_email",
+        "peekOfCode": "class wrong_email:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"http://automationpractice.com/index.php\")\n    driver.find_element(By.XPATH,\"//a[@class='login']\").click()\n    mail_box = driver.find_element(By.XPATH,\"//input[@id='email_create']\")\n    mail_box.send_keys(\"test@gmail.com\")\n    mail_box.send_keys(Keys.ENTER)\n    warning_text = driver.find_element(By.XPATH,\"//*[text()='Invalid email address.']\")",
+        "detail": "practice.day04_radio_button.wrong_email",
+        "documentation": {}
+    },
+    {
+        "label": "alerts",
+        "kind": 6,
+        "importPath": "practice.day05_alerts_iframe.alert",
+        "description": "practice.day05_alerts_iframe.alert",
+        "peekOfCode": "class alerts:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/javascript_alerts\")\n    driver.find_element(By.XPATH,\"//*[text()='Click for JS Alert']\").click()\n    alert = Alert(driver)\n    print(alert.text)\n    alert.accept()\n    expected_result = \"You successfully clicked an alert\"",
+        "detail": "practice.day05_alerts_iframe.alert",
+        "documentation": {}
+    },
+    {
+        "label": "alert_base",
+        "kind": 6,
+        "importPath": "practice.day05_alerts_iframe.alerts",
+        "description": "practice.day05_alerts_iframe.alerts",
+        "peekOfCode": "class alert_base(unittest.TestCase):\n    \"\"\"\n    TBD\n    \"\"\"\n    @classmethod\n    def setUpClass(cls):\n        cls.driver = webdriver.Chrome()\n        cls.driver.maximize_window()\n        cls.driver.implicitly_wait(10)\n        cls.driver.get(\"https://the-internet.herokuapp.com/javascript_alerts\")",
+        "detail": "practice.day05_alerts_iframe.alerts",
+        "documentation": {}
+    },
+    {
+        "label": "TestHome",
+        "kind": 6,
+        "importPath": "practice.day05_alerts_iframe.alerts",
+        "description": "practice.day05_alerts_iframe.alerts",
+        "peekOfCode": "class TestHome(alert_base):\n    \"\"\"\n    TBD\n    \"\"\"\n    def test_TC001_accept_alert(self):\n        self.driver.find_element(By.XPATH,\"//*[text()='Click for JS Alert']\").click()\n        alert = Alert(self.driver)\n        print(alert.text)\n        alert.accept()\n        expected_result = \"You successfully clicked an alert\"",
+        "detail": "practice.day05_alerts_iframe.alerts",
+        "documentation": {}
+    },
+    {
+        "label": "irfame",
+        "kind": 6,
+        "importPath": "practice.day05_alerts_iframe.iframe",
+        "description": "practice.day05_alerts_iframe.iframe",
+        "peekOfCode": "class irfame:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/iframe\")\n    title = driver.find_element(By.XPATH,\"//h3\")\n    assert title.is_enabled()\n    print(title.text)\n    driver.switch_to.frame(\"mce_0_ifr\")\n    text_box = driver.find_element(By.XPATH,\"//body[@id='tinymce']\") ",
+        "detail": "practice.day05_alerts_iframe.iframe",
+        "documentation": {}
+    },
+    {
+        "label": "irfame_hw",
+        "kind": 6,
+        "importPath": "practice.day05_alerts_iframe.iframe_hw",
+        "description": "practice.day05_alerts_iframe.iframe_hw",
+        "peekOfCode": "class irfame_hw:\n    driver= webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"http://webdriveruniversity.com/IFrame/index.html\")\n    iframe = driver.find_element(By.XPATH,\"//iframe[@id='frame']\")\n    driver.switch_to.frame(iframe)\n    pop_up_element = driver.find_element(By.XPATH,\"//div[@class='modal-body']\")\n    print(pop_up_element.text)\n    driver.find_element(By.CSS_SELECTOR,\"button[id='button-find-out-more']\").click()",
+        "detail": "practice.day05_alerts_iframe.iframe_hw",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day06_handlewindows.c03_handle_window",
+        "description": "practice.day06_handlewindows.c03_handle_window",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/windows\")\n    text_element = driver.find_element(By.XPATH,\"//h3\")\n    expected_text = \"Opening a new window\"\n    actual_text = text_element.text\n    assert expected_text in actual_text\n    expected_title = \"The Internet\"",
+        "detail": "practice.day06_handlewindows.c03_handle_window",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day06_handlewindows.handle_window",
+        "description": "practice.day06_handlewindows.handle_window",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    first_handle = driver.current_window_handle\n    print(first_handle)\n    search_box = driver.find_element(By.ID,\"twotabsearchtextbox\")\n    search_box.send_keys(\"Bicycle\")\n    search_box.send_keys(Keys.ENTER)",
+        "detail": "practice.day06_handlewindows.handle_window",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day06_handlewindows.handle_windows",
+        "description": "practice.day06_handlewindows.handle_windows",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    first_handle = driver.current_window_handle\n    print(first_handle)\n    actual_url = driver.current_url\n    assert 'amazon' in actual_url\n    driver.switch_to.new_window()",
+        "detail": "practice.day06_handlewindows.handle_windows",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day06_handlewindows.new_window",
+        "description": "practice.day06_handlewindows.new_window",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    #Open google on window 1\n    driver.get(\"https://www.google.com\")\n    print(\"google title\",driver.title)\n    google_window_handle = driver.current_window_handle\n    #Open amazon on window 2\n    driver.switch_to.new_window()",
+        "detail": "practice.day06_handlewindows.new_window",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day06_handlewindows.window_handle_hw",
+        "description": "practice.day06_handlewindows.window_handle_hw",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"http://webdriveruniversity.com/\")\n    action = ActionChains(driver)\n    action.send_keys(Keys.ARROW_DOWN).perform()\n    first_page_handle = driver.current_window_handle\n    time.sleep(3)\n    portal = driver.find_element(By.XPATH,\"//*[text()='LOGIN PORTAL']\")",
+        "detail": "practice.day06_handlewindows.window_handle_hw",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day07_actions.c01_actions",
+        "description": "practice.day07_actions.c01_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    action = ActionChains(driver)\n    account_link = driver.find_element(By.XPATH,\"//*[text()='Account & Lists']\")\n    action.move_to_element(account_link).perform()\n    driver.find_element(By.XPATH,\"//*[text()='Create a List']\").click()\n    time.sleep(3)",
+        "detail": "practice.day07_actions.c01_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day07_actions.c02_actions",
+        "description": "practice.day07_actions.c02_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/context_menu\")\n    action = ActionChains(driver)\n    striped_line_element = driver.find_element(By.ID,\"hot-spot\")\n    action.context_click(striped_line_element).perform()\n    # accept alert “You selected a context menu”\n    expected_text = \"You selected a context menu\"",
+        "detail": "practice.day07_actions.c02_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day07_actions.c04_keyboard_actions",
+        "description": "practice.day07_actions.c04_keyboard_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.amazon.com\")\n    search_box = driver.find_element(By.ID,\"twotabsearchtextbox\")\n    action = ActionChains(driver)\n    action.click(search_box).key_down(Keys.SHIFT).send_keys(\"B\").key_up(Keys.SHIFT).send_keys(\"i\").send_keys(\"c\").send_keys(\"y\").send_keys(Keys.ENTER).perform()",
+        "detail": "practice.day07_actions.c04_keyboard_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day07_actions.c05_keyboard_actions",
+        "description": "practice.day07_actions.c05_keyboard_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.facebook.com\")\n    #driver.find_element(By.XPATH,\"//button[@data-cookiebanner='accept_button']\").click()\n    driver.find_element(By.XPATH,\"//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']\").click()\n    name_box = driver.find_element(By.XPATH,\"//input[@name='firstname']\")\n    action = ActionChains(driver)\n    action.click(name_box).send_keys(\"can\").send_keys(Keys.TAB).send_keys(\"can\").send_keys(Keys.ENTER).perform()",
+        "detail": "practice.day07_actions.c05_keyboard_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day07_actions.c3_actions",
+        "description": "practice.day07_actions.c3_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://demoqa.com/droppable\")\n    action = ActionChains(driver)\n    drag_element = driver.find_element(By.XPATH,\"//div[@id='draggable']\")\n    target_element = driver.find_element(By.XPATH,\"(//div[@id='droppable'])[1]\")\n    action.drag_and_drop(drag_element,target_element).perform()\n    # check if it is dropped",
+        "detail": "practice.day07_actions.c3_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day08_faker_file.c01_faker",
+        "description": "practice.day08_faker_file.c01_faker",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://www.facebook.com\")\n    # click register button\n    driver.find_element(By.XPATH,\"//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']\").click()\n    #locate name box\n    name_box = driver.find_element(By.XPATH,\"//input[@name='firstname']\")\n    action = ActionChains(driver)",
+        "detail": "practice.day08_faker_file.c01_faker",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day08_faker_file.c02_actions",
+        "description": "practice.day08_faker_file.c02_actions",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://html.com/tags/iframe/\")\n    action = ActionChains(driver)\n    action.send_keys(Keys.PAGE_DOWN).perform()\n    # click play button\n    iframe = driver.find_element(By.XPATH,\"//iframe[@src='https://www.youtube.com/embed/owsfdh4gxyc']\") \n    driver.switch_to.frame(iframe)",
+        "detail": "practice.day08_faker_file.c02_actions",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day08_faker_file.c03_file_exist",
+        "description": "practice.day08_faker_file.c03_file_exist",
+        "peekOfCode": "class hw:\n    print(os.path.exists(\"/Users/gokhanagar/Downloads/Gokhan+AGAR.pdf\"))\n    #it gives us file's directory address\n    f = open(os.path.expanduser(\"~/Downloads/Gokhan+AGAR.pdf\"))\n    # print(f.name)\n    print(os.getcwd())    # find directory\n    downloads_folder = os.path.join(os.path.expanduser('~'),'Downloads')\n    print(\"download path: \",downloads_folder)\n    os.chdir(downloads_folder) #change directory\n    print(os.getcwd())",
+        "detail": "practice.day08_faker_file.c03_file_exist",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day08_faker_file.c04_file_download",
+        "description": "practice.day08_faker_file.c04_file_download",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(10)\n    driver.get(\"https://the-internet.herokuapp.com/download\")\n    dummy_link = driver.find_element(By.XPATH,\"//a[text()='Certifications.pdf']\")\n    dummy_link.click()\n    time.sleep(5)\n    #Check file is downloaded\n    assert os.path.exists(\"/Users/gokhanagar/Downloads/Certifications.pdf\")",
+        "detail": "practice.day08_faker_file.c04_file_download",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day08_faker_file.c05_file_upload",
+        "description": "practice.day08_faker_file.c05_file_upload",
+        "peekOfCode": "class hw:\n    driver = webdriver.Chrome()\n    driver.maximize_window()\n    driver.implicitly_wait(15)\n    driver.get(\"https://the-internet.herokuapp.com/upload\")\n    choose_file_button = driver.find_element(By.CSS_SELECTOR,\"input[id='file-upload']\")\n    time.sleep(3)\n    python_with_selenium_folder = os.path.join(os.path.expanduser('~'),'python with selenium /requirements.txt')\n    print(python_with_selenium_folder)\n    choose_file_button.send_keys(python_with_selenium_folder)",
+        "detail": "practice.day08_faker_file.c05_file_upload",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day09_excel.c01_read_excel",
+        "description": "practice.day09_excel.c01_read_excel",
+        "peekOfCode": "class hw:\n    # Load the Excel workbook\n    workbook = openpyxl.load_workbook(\"/Users/gokhanagar/python with selenium /dunyada_ulkeler_listesi.xlsx\")\n    # Select the active worksheet\n    worksheet = workbook.get_sheet_by_name(\"Dünyada Ülkeler Listesi\")\n    #worksheet = workbook.active\n    # Access the values in the worksheet\n    cell = worksheet.cell (row=1, column=1)\n    print(cell.value)\n    # Close the workbook    ",
+        "detail": "practice.day09_excel.c01_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "hw",
+        "kind": 6,
+        "importPath": "practice.day09_excel.c02_read_excel",
+        "description": "practice.day09_excel.c02_read_excel",
+        "peekOfCode": "class hw:\n    # Load the Excel workbook\n    workbook = openpyxl.load_workbook(\"/Users/gokhanagar/python with selenium /dunyada_ulkeler_listesi.xlsx\")\n    # Select the active worksheet\n    worksheet = workbook.get_sheet_by_name(\"Dünyada Ülkeler Listesi\")\n    #worksheet = workbook.active\n    # Get the last row of the worksheet\n    last_row = worksheet.max_row\n    data = \"\"\n    for each in range(1,last_row):",
+        "detail": "practice.day09_excel.c02_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "bk",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "bk = openpyxl.load_workbook(“C:\\\\STM\\\\Python.xlsx”)\n# to identify active worksheet\ns = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# to identify maximum columns count\nprint ( s.max_column)\n===================================================================\nimport openpyxl\n# to load the workbook with its path",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "s = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# to identify maximum columns count\nprint ( s.max_column)\n===================================================================\nimport openpyxl\n# to load the workbook with its path\nbk = openpyxl.load_workbook(“C:\\\\STM\\\\Python.xlsx”)\n# to identify active worksheet",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "bk",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "bk = openpyxl.load_workbook(“C:\\\\STM\\\\Python.xlsx”)\n# to identify active worksheet\ns = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# iterate till the count of occupied rows\nfor m in range ( 1, s.max_row + 1):\n# iterate till the count of occupied columns\nfor n in range ( 1, s.max_column + 1):\n# to get the cell data and print",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "s = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# iterate till the count of occupied rows\nfor m in range ( 1, s.max_row + 1):\n# iterate till the count of occupied columns\nfor n in range ( 1, s.max_column + 1):\n# to get the cell data and print\nprint (s.cell (row=m, column=n). value) \n===================================================================",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "bk",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "bk = openpyxl.load_workbook(“C:\\\\STM\\\\Python.xlsx”)\n# to identify active worksheet\ns = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# iterate till the count of occupied rows\nfor m in range ( 1, s.max_row + 1): \n# to get all the cell values from column 1\nif s.cell (row=m, column=1).value == \"Python\" :\n# iterate till the count of occupied columns",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "practice.day09_excel.c03_read_excel",
+        "description": "practice.day09_excel.c03_read_excel",
+        "peekOfCode": "s = bk.active\n# to identify maximum rows count\nprint ( s.max_row)\n# iterate till the count of occupied rows\nfor m in range ( 1, s.max_row + 1): \n# to get all the cell values from column 1\nif s.cell (row=m, column=1).value == \"Python\" :\n# iterate till the count of occupied columns\nfor n in range ( 1, s.max_column + 1):\n# to get all the cell data from a row and print",
+        "detail": "practice.day09_excel.c03_read_excel",
+        "documentation": {}
+    },
+    {
+        "label": "AnasayfaLocators",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.locators.locators",
+        "description": "pytest_selenium_project.locators.locators",
+        "peekOfCode": "class AnasayfaLocators:\n    ust_menu_linkleri = (By.CSS_SELECTOR,\"ul.top-menu > li > a\")\n    ilk_urun_ismi = (By.CSS_SELECTOR,\"div.product-item h2 a\")\n    ilk_gift_card_olmayan_urun_ismi = (By.XPATH,\"//div[@class='item-box']//h2/a[not(contains(text(),'Gift Card'))]\")\n    ilk_urun_fiyati =(By.CSS_SELECTOR,\"span.price.actual-price\")\nclass UrunDetaySayfasiLocators:\n    sepetteki_urun_yazisi = (By.CSS_SELECTOR,\"a.ico-cart span:nth-child(2)\")\n    quantity_sayisi = (By.CSS_SELECTOR,\"input[id$='EnteredQuantity']\")\n    add_to_cart_button = (By.CSS_SELECTOR,\"input[id^='add-to-cart-button']\")",
+        "detail": "pytest_selenium_project.locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "UrunDetaySayfasiLocators",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.locators.locators",
+        "description": "pytest_selenium_project.locators.locators",
+        "peekOfCode": "class UrunDetaySayfasiLocators:\n    sepetteki_urun_yazisi = (By.CSS_SELECTOR,\"a.ico-cart span:nth-child(2)\")\n    quantity_sayisi = (By.CSS_SELECTOR,\"input[id$='EnteredQuantity']\")\n    add_to_cart_button = (By.CSS_SELECTOR,\"input[id^='add-to-cart-button']\")\n    urun_ismi = (By.CSS_SELECTOR,\"div.product-name h1\")\n    urun_fiyati = (By.CSS_SELECTOR,\"div.product-price span\")\nclass AramaSayfasiLocators:\n    arama_kutusu = (By.CSS_SELECTOR, \"input[name='q']\")\n    arama_uyari_mesaji = (By.CSS_SELECTOR, \"div.search-results\")",
+        "detail": "pytest_selenium_project.locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "AramaSayfasiLocators",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.locators.locators",
+        "description": "pytest_selenium_project.locators.locators",
+        "peekOfCode": "class AramaSayfasiLocators:\n    arama_kutusu = (By.CSS_SELECTOR, \"input[name='q']\")\n    arama_uyari_mesaji = (By.CSS_SELECTOR, \"div.search-results\")",
+        "detail": "pytest_selenium_project.locators.locators",
+        "documentation": {}
+    },
+    {
+        "label": "Anasayfa",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.pages.anasayfa",
+        "description": "pytest_selenium_project.pages.anasayfa",
+        "peekOfCode": "class Anasayfa(PageBase):\n    def __init__(self,driver):\n        super().__init__(driver)\n        self.driver = driver\n    def gift_card_olmayan_ilk_urun_ismine_tikla(self):\n       self.driver.find_element(*AnasayfaLocators.ilk_gift_card_olmayan_urun_ismi).click() \n    def ust_menu_isimlerini_liste_ver(self):\n      elements = self.driver.find_elements(*AnasayfaLocators.ust_menu_linkleri)\n      actual_menu_items = []\n      for i in elements:",
+        "detail": "pytest_selenium_project.pages.anasayfa",
+        "documentation": {}
+    },
+    {
+        "label": "AramaSayfasi",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.pages.arama_sayfasi",
+        "description": "pytest_selenium_project.pages.arama_sayfasi",
+        "peekOfCode": "class AramaSayfasi(PageBase):\n    def __init__(self,driver):\n        super().__init__(driver)\n        self.driver = driver\n    def arama_yap(self,kelime):\n        arama_kutusu = self.driver.find_element(*AramaSayfasiLocators.arama_kutusu)\n        arama_kutusu.send_keys(kelime)\n        arama_kutusu.send_keys(Keys.ENTER)\n    def arama_uyari_mesajini_ver(self):\n        mesaj= self.driver.find_element(*AramaSayfasiLocators.arama_uyari_mesaji).text.strip()",
+        "detail": "pytest_selenium_project.pages.arama_sayfasi",
+        "documentation": {}
+    },
+    {
+        "label": "Urun_detay_sayfasi",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.pages.urun_detay_sayfasi",
+        "description": "pytest_selenium_project.pages.urun_detay_sayfasi",
+        "peekOfCode": "class Urun_detay_sayfasi(PageBase):\n    def __init__(self,driver):\n        super().__init__(driver)\n        self.driver = driver\n    def sepetteki_urun_sayisini_ver(self):\n        sepetteki_urun_sayisi = self.driver.find_element(*UrunDetaySayfasiLocators.sepetteki_urun_yazisi).text\n        sepetteki_urun_sayisi = re.findall(r'\\d+', sepetteki_urun_sayisi)\n        return int(sepetteki_urun_sayisi[0])\n    def quantity_sayisini_ver(self):\n        quantity = self.driver.find_element(*UrunDetaySayfasiLocators.quantity_sayisi).get_attribute('value')",
+        "detail": "pytest_selenium_project.pages.urun_detay_sayfasi",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "kind": 2,
+        "importPath": "pytest_selenium_project.tests_.conftest",
+        "description": "pytest_selenium_project.tests_.conftest",
+        "peekOfCode": "def setup(request):\n      driver = webdriver.Chrome()\n      driver.maximize_window()\n      driver.implicitly_wait(15)\n      driver.get(\"https://demowebshop.tricentis.com/\")\n      request.cls.driver = driver \n      yield \n      driver.quit()",
+        "detail": "pytest_selenium_project.tests_.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "TestArama",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.tests_.test_arama",
+        "description": "pytest_selenium_project.tests_.test_arama",
+        "peekOfCode": "class TestArama(unittest.TestCase):\n    @data(*ExcelYardimcisi.excel_listeler_listesine_cevir(\"./testdata/arama.xlsx\", \"Sayfa1\"))\n    @unpack\n    def test_arama_uyari_verir(self,kelime,beklenen_mesaj):\n        self.driver.get(\"https://demowebshop.tricentis.com/\")\n        arama = AramaSayfasi(self.driver)\n        arama.arama_yap(kelime)\n        time.sleep(2)\n        mesaj = arama.arama_uyari_mesajini_ver()\n        assert mesaj == beklenen_mesaj",
+        "detail": "pytest_selenium_project.tests_.test_arama",
+        "documentation": {}
+    },
+    {
+        "label": "TestHomepage",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.tests_.test_homepage",
+        "description": "pytest_selenium_project.tests_.test_homepage",
+        "peekOfCode": "class TestHomepage:\n  @pytest.fixture(autouse=True)\n  def class_setup(self):\n    self.anasayfa = Anasayfa(self.driver)\n    self.urun_detay_sayfasi = Urun_detay_sayfasi(self.driver)\n  def test_ust_menu_linklerini_dogrula(self):      \n    expected_menu = [\"BOOKS\", \"COMPUTERS\", \"ELECTRONICS\", \"APPAREL & SHOES\", \"DIGITAL DOWNLOADS\",\n                         \"JEWELRY\", \"GIFT CARDS\"]\n    actual_menu_items = self.anasayfa.ust_menu_isimlerini_liste_ver()\n      # elements = self.driver.find_elements(By.CSS_SELECTOR,\"ul.top-menu > li > a\")",
+        "detail": "pytest_selenium_project.tests_.test_homepage",
+        "documentation": {}
+    },
+    {
+        "label": "TestUrunDetaylari",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.tests_.test_urun_detaylari",
+        "description": "pytest_selenium_project.tests_.test_urun_detaylari",
+        "peekOfCode": "class TestUrunDetaylari:\n    @pytest.fixture(autouse=True)\n    def class_setup(self):\n        self.anasayfa = Anasayfa(self.driver)\n        self.urun_detay_sayfasi = Urun_detay_sayfasi(self.driver)\n    def test_add_to_cart_button_adds_product_to_cart(self):\n        self.driver.get(\"https://demowebshop.tricentis.com/\")\n        anasayfa = Anasayfa(self.driver)\n        urun_detay_sayfasi = Urun_detay_sayfasi(self.driver)\n        anasayfa.gift_card_olmayan_ilk_urun_ismine_tikla()",
+        "detail": "pytest_selenium_project.tests_.test_urun_detaylari",
+        "documentation": {}
+    },
+    {
+        "label": "ExcelYardimcisi",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.utilities.excelYardimcisi",
+        "description": "pytest_selenium_project.utilities.excelYardimcisi",
+        "peekOfCode": "class ExcelYardimcisi:\n    def excel_listeler_listesine_cevir(dosyayeri, sayfaadi):\n        dosya = openpyxl.load_workbook(dosyayeri)\n        sayfa = dosya[sayfaadi]\n        satir_sayisi = sayfa.max_row\n        sutun_sayisi = sayfa.max_column\n        data = []\n        for i in range(2, sutun_sayisi+1):\n            satir=[]\n            for j in range(1, sutun_sayisi+1):",
+        "detail": "pytest_selenium_project.utilities.excelYardimcisi",
+        "documentation": {}
+    },
+    {
+        "label": "PageBase",
+        "kind": 6,
+        "importPath": "pytest_selenium_project.utilities.pageBase",
+        "description": "pytest_selenium_project.utilities.pageBase",
+        "peekOfCode": "class PageBase:\n    def __init__(self, driver):\n        self.driver = driver\n    def wait_element_visibility(self,locator):\n        element = WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located(locator))   \n        return element\n    def wait_element_presence(self,locator):\n        element = WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located(locator))   \n        return element\n    def wait_alert_presence(self):",
+        "detail": "pytest_selenium_project.utilities.pageBase",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "kind": 6,
+        "importPath": "udemy.pom.locators",
+        "description": "udemy.pom.locators",
+        "peekOfCode": "class CommonPageLocators:\n    SEARCH_BAR = (By.ID,\"id-search-field\")\n    SEARCH_GO_BUTTON = (By.ID,\"submit\")\n    DOC = (By.ID,\"documentation\")\n    PY3_DOC_BUTTON = (By.XPATH,\"//*[@id='documentation']/ul/li[10]/p[2]/a\")\n    SEARCH_RESULT_LIST =(By.XPATH,\"//h3[text()='Results']/following-sibling::ul\")\nclass AboutPageLocators:\n    UPCOMING_EVENTS = (By.XPATH,\"//*[text()='Upcoming Events']\")",
+        "detail": "udemy.pom.locators",
+        "documentation": {}
+    },
+    {
+        "label": "AboutPageLocators",
+        "kind": 6,
+        "importPath": "udemy.pom.locators",
+        "description": "udemy.pom.locators",
+        "peekOfCode": "class AboutPageLocators:\n    UPCOMING_EVENTS = (By.XPATH,\"//*[text()='Upcoming Events']\")",
+        "detail": "udemy.pom.locators",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "udemy.pom.multiproc",
+        "description": "udemy.pom.multiproc",
+        "peekOfCode": "def run_test(test_to_run):\n    runner = unittest.TextTestRunner(verbosity=2)\n    runner.run(test_to_run)\ntests = [TestHome('test_Tc001_py3_doc_button'),\n         TestHome('test_Tc002_blahblah_search'),\n         TestHome('test_TC004_assert_title'),\n         TestAbout('test_TC003_verify_upcoming_events_section_present'),\n         TestAbout('test_TC005_assert_url')]\nif  __name__ == '__main__':\n    with Pool(5) as p:",
+        "detail": "udemy.pom.multiproc",
+        "documentation": {}
+    },
+    {
+        "label": "tests",
+        "kind": 5,
+        "importPath": "udemy.pom.multiproc",
+        "description": "udemy.pom.multiproc",
+        "peekOfCode": "tests = [TestHome('test_Tc001_py3_doc_button'),\n         TestHome('test_Tc002_blahblah_search'),\n         TestHome('test_TC004_assert_title'),\n         TestAbout('test_TC003_verify_upcoming_events_section_present'),\n         TestAbout('test_TC005_assert_url')]\nif  __name__ == '__main__':\n    with Pool(5) as p:\n        p.map(run_test, tests)",
+        "detail": "udemy.pom.multiproc",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "kind": 6,
+        "importPath": "udemy.pom.page",
+        "description": "udemy.pom.page",
+        "peekOfCode": "class BasePage:\n    \"\"\"\n    Base Page class that hold common elements\n    and functionalities to all pages in app\n    \"\"\"\n    def __init__(self, driver):\n        self.driver = driver\n    def click(self, by_locator):\n        WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(by_locator)).click()\n    def hover_to(self, by_locator):",
+        "detail": "udemy.pom.page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "kind": 6,
+        "importPath": "udemy.pom.page",
+        "description": "udemy.pom.page",
+        "peekOfCode": "class HomePage(BasePage):\n    \"\"\"\n    Home page of Python.org\n    \"\"\"\n    def __init__(self, driver):\n        super().__init__(driver)\n        self.driver.get(\"https://www.python.org\")\nclass AboutPage(BasePage):\n    \"\"\"\n    About page of Python.org",
+        "detail": "udemy.pom.page",
+        "documentation": {}
+    },
+    {
+        "label": "AboutPage",
+        "kind": 6,
+        "importPath": "udemy.pom.page",
+        "description": "udemy.pom.page",
+        "peekOfCode": "class AboutPage(BasePage):\n    \"\"\"\n    About page of Python.org\n    \"\"\"\n    def __init__(self, driver):\n        super().__init__(driver)\n        self.driver.get(\"https://www.python.org/about/\")",
+        "detail": "udemy.pom.page",
+        "documentation": {}
+    },
+    {
+        "label": "suite",
+        "kind": 2,
+        "importPath": "udemy.pom.suite_all_tests",
+        "description": "udemy.pom.suite_all_tests",
+        "peekOfCode": "def suite():\n    suite = unittest.TestSuite()\n    # Home page tests\n    # Example: suite.addTest(TestCaseClass('tc_name'))\n    suite.addTest(TestHome('test_TC001_py3_doc_button'))\n    suite.addTest(TestHome('test_TC002_blahblah_search'))\n    suite.addTest(TestHome('test_TC004_assert_title'))\n    #About page\n    suite.addTest(TestAbout('test_TC003_verify_upcoming_events_section_present'))\n    suite.addTest(TestAbout('test_TC005_assert_url'))",
+        "detail": "udemy.pom.suite_all_tests",
+        "documentation": {}
+    },
+    {
+        "label": "suite",
+        "kind": 2,
+        "importPath": "udemy.pom.suite_all_tests_concurrent",
+        "description": "udemy.pom.suite_all_tests_concurrent",
+        "peekOfCode": "def suite():\n    suite = unittest.TestSuite()\n    # Home page tests\n    suite.addTest(TestHome('test_TC001_py3_doc_button'))\n    suite.addTest(TestHome('test_TC002_blahblah_search'))\n    suite.addTest(TestHome('test_TC004_assert_title'))\n    #About page\n    suite.addTest(TestAbout('test_TC003_verify_upcoming_events_section_present'))\n    suite.addTest(TestAbout('test_TC005_assert_url'))\n    return suite",
+        "detail": "udemy.pom.suite_all_tests_concurrent",
+        "documentation": {}
+    },
+    {
+        "label": "TestPythonOrg",
+        "kind": 6,
+        "importPath": "udemy.pom.testAll",
+        "description": "udemy.pom.testAll",
+        "peekOfCode": "class TestPythonOrg(unittest.TestCase):\n    \"\"\"\n    Python  org example tests\n    \"\"\"\n    def setUp(self):\n        chrome_options = webdriver.ChromeOptions()\n        chrome_options.add_argument('headless')\n        chrome_options.add_argument('window-size=1920x1080')\n        self.driver = webdriver.Chrome(options=chrome_options)\n    def test_TC001_py3_doc_button(self):",
+        "detail": "udemy.pom.testAll",
+        "documentation": {}
+    },
+    {
+        "label": "TestPyOrgBase",
+        "kind": 6,
+        "importPath": "udemy.pom.testAllpom",
+        "description": "udemy.pom.testAllpom",
+        "peekOfCode": "class TestPyOrgBase(unittest.TestCase):\n    \"\"\"\n    TBD\n    \"\"\"\n    @classmethod\n    def setUpClass(cls):\n        chrome_options = webdriver.ChromeOptions()\n        # chrome_options.add_argument('headless')\n        chrome_options.add_argument('window-size=1920x1080')\n        cls.driver = webdriver.Chrome(options=chrome_options)",
+        "detail": "udemy.pom.testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestHome",
+        "kind": 6,
+        "importPath": "udemy.pom.testAllpom",
+        "description": "udemy.pom.testAllpom",
+        "peekOfCode": "class TestHome(TestPyOrgBase):\n    \"\"\"\n    TBD\n    \"\"\"\n    def setUp(self):\n        #super().setUp()\n        self.home = HomePage(self.driver)\n    @unittest.skip('demonstrating a skipping of a test case')\n    def test_TC001_py3_doc_button(self):\n        self.home.hover_to(CommonPageLocators.DOC)",
+        "detail": "udemy.pom.testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "TestAbout",
+        "kind": 6,
+        "importPath": "udemy.pom.testAllpom",
+        "description": "udemy.pom.testAllpom",
+        "peekOfCode": "class TestAbout(TestPyOrgBase):\n    \"\"\"\n    TBD\n    \"\"\"\n    def setUp(self):\n        #super().setUp()\n        self.about = AboutPage(self.driver)\n    def test_TC003_verify_upcoming_events_section_present(self):\n        self.about.assert_elem_text(AboutPageLocators.UPCOMING_EVENTS,\"Upcoming Events\")\n        element =self.driver.find_element(By.XPATH,\"//*[text()='Upcoming Events']\")",
+        "detail": "udemy.pom.testAllpom",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.alert",
+        "description": "udemy.practice.alert",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://python.org\")\ntime.sleep(1)\ndriver.maximize_window()\ndriver.find_element(By.CSS_SELECTOR,\"a[title='Python Package Index']\").click()\ntime.sleep(1)\n# driver.switch_to_alert().accept()\ndriver.back()\ntime.sleep(1)",
+        "detail": "udemy.practice.alert",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.assertions_example",
+        "description": "udemy.practice.assertions_example",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://localhost/se/table.html\")\ntime.sleep(3)\ntry:\n    assert '404 Not Found' not in driver.page_source\nexcept AssertionError:\n    print('Error: page not found, check URL')",
+        "detail": "udemy.practice.assertions_example",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.capturing",
+        "description": "udemy.practice.capturing",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://hepsiburada.com\")\ndriver.maximize_window()\ndriver.save_screenshot('homepage.png')\ndriver.get_screenshot_as_file('home.png')",
+        "detail": "udemy.practice.capturing",
+        "documentation": {}
+    },
+    {
+        "label": "MyListener",
+        "kind": 6,
+        "importPath": "udemy.practice.event",
+        "description": "udemy.practice.event",
+        "peekOfCode": "class MyListener(AbstractEventListener):\n    def before_navigate_to(self, url, driver):\n        print(\"Log: Before navigate to {}\".format(url))\n    def after_navigate_to(self, url, driver):\n        print(\"Log: After navigate to {}\".format(url))  \ndriver = webdriver.Chrome()\nef_driver = EventFiringWebDriver(driver, MyListener())\nef_driver.get(\"http://python.org\")",
+        "detail": "udemy.practice.event",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.event",
+        "description": "udemy.practice.event",
+        "peekOfCode": "driver = webdriver.Chrome()\nef_driver = EventFiringWebDriver(driver, MyListener())\nef_driver.get(\"http://python.org\")",
+        "detail": "udemy.practice.event",
+        "documentation": {}
+    },
+    {
+        "label": "ef_driver",
+        "kind": 5,
+        "importPath": "udemy.practice.event",
+        "description": "udemy.practice.event",
+        "peekOfCode": "ef_driver = EventFiringWebDriver(driver, MyListener())\nef_driver.get(\"http://python.org\")",
+        "detail": "udemy.practice.event",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.example_test_case",
+        "description": "udemy.practice.example_test_case",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://python.org\")\nassert 'python' in driver.title.lower()\ndriver.close()",
+        "detail": "udemy.practice.example_test_case",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.table",
+        "description": "udemy.practice.table",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://localhost/se/table.html\")\ntime.sleep(3)\ndriver.find_element(By.XPATH,\"//*[text()='Apple']/preceding-sibling::td/input\").click()\ndriver.execute_script(\"document.body.style.zoom = '1.5\")",
+        "detail": "udemy.practice.table",
+        "documentation": {}
+    },
+    {
+        "label": "driver.execute_script(\"document.body.style.zoom",
+        "kind": 5,
+        "importPath": "udemy.practice.table",
+        "description": "udemy.practice.table",
+        "peekOfCode": "driver.execute_script(\"document.body.style.zoom = '1.5\")",
+        "detail": "udemy.practice.table",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "udemy.practice.waits",
+        "description": "udemy.practice.waits",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.get(\"http://hepsiburada.com\")\n# implicit wait\ndriver.implicitly_wait(3)\nelem = driver.find_element(By.CSS_SELECTOR,\"span[data-test-id='account']\")\n# explicit wait\n# from selenium.webdriver.common.by import By\n# from selenium.webdriver.support.ui import WebDriverWait\n# from selenium.webdriver.support.ui import expected_conditions as EC\n# elem = WebDriverWait(driver,10).until(EC.presence_of_element_located(By.CSS_SELECTOR,\"span[data-test-id='account']\"))",
+        "detail": "udemy.practice.waits",
+        "documentation": {}
+    },
+    {
+        "label": "elem",
+        "kind": 5,
+        "importPath": "udemy.practice.waits",
+        "description": "udemy.practice.waits",
+        "peekOfCode": "elem = driver.find_element(By.CSS_SELECTOR,\"span[data-test-id='account']\")\n# explicit wait\n# from selenium.webdriver.common.by import By\n# from selenium.webdriver.support.ui import WebDriverWait\n# from selenium.webdriver.support.ui import expected_conditions as EC\n# elem = WebDriverWait(driver,10).until(EC.presence_of_element_located(By.CSS_SELECTOR,\"span[data-test-id='account']\"))\nprint('Found element with text: {}'.format(elem.get_attribute('innerHTML')))",
+        "detail": "udemy.practice.waits",
+        "documentation": {}
+    },
+    {
+        "label": "CommonPageLocators",
+        "kind": 6,
+        "importPath": "udemy.test_suite.locators",
+        "description": "udemy.test_suite.locators",
+        "peekOfCode": "class CommonPageLocators:\n    admin = (By.ID,'menu_admin_viewAdminModule')\nclass LoginPageLocators:\n    login_panel = (By.ID,'logInPanelHeading')\n    username = (By.ID,'txtUsername')\n    password = (By.ID,'txtPassword')\n    login_button = (By.ID,'btnLogin')\n    span_msg = (By.ID,'spanMessage')\nclass AdminPageLocators:\n    job = (By.ID,'menu_admin_Job')",
+        "detail": "udemy.test_suite.locators",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPageLocators",
+        "kind": 6,
+        "importPath": "udemy.test_suite.locators",
+        "description": "udemy.test_suite.locators",
+        "peekOfCode": "class LoginPageLocators:\n    login_panel = (By.ID,'logInPanelHeading')\n    username = (By.ID,'txtUsername')\n    password = (By.ID,'txtPassword')\n    login_button = (By.ID,'btnLogin')\n    span_msg = (By.ID,'spanMessage')\nclass AdminPageLocators:\n    job = (By.ID,'menu_admin_Job')\n    job_titles = (By.ID,'menu_admin_viewJobTitleList')\n    job_title_add_btn = (By.ID, 'btnAdd')",
+        "detail": "udemy.test_suite.locators",
+        "documentation": {}
+    },
+    {
+        "label": "AdminPageLocators",
+        "kind": 6,
+        "importPath": "udemy.test_suite.locators",
+        "description": "udemy.test_suite.locators",
+        "peekOfCode": "class AdminPageLocators:\n    job = (By.ID,'menu_admin_Job')\n    job_titles = (By.ID,'menu_admin_viewJobTitleList')\n    job_title_add_btn = (By.ID, 'btnAdd')\n    job_title_jd_field = (By.ID, 'jobTitle_jobTitle')\n    job_title_save_btn = (By.ID,'btnSave')\n    job_title_table = (By.ID,'resultTable')\n    job_workshift = (By.ID,'menu_admin_workShift')\n    job_workshift_add_btn = (By.ID,'btnAdd')\n    job_workshift_name = (By.ID,'workShift_name')",
+        "detail": "udemy.test_suite.locators",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "kind": 6,
+        "importPath": "udemy.test_suite.page",
+        "description": "udemy.test_suite.page",
+        "peekOfCode": "class BasePage:\n    \"\"\"\n    Base Page class that hold common elements\n    and functionalities to all pages in app\n    \"\"\"\n    def __init__(self, driver):\n        self.driver = driver\n    def click(self, by_locator):\n        WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(by_locator)).click()\n    def hover_to(self, by_locator):",
+        "detail": "udemy.test_suite.page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "kind": 6,
+        "importPath": "udemy.test_suite.page",
+        "description": "udemy.test_suite.page",
+        "peekOfCode": "class LoginPage(BasePage):\n    \"\"\"\n    Login page of OHRM\n    \"\"\"\n    def __init__(self, driver):\n        super().__init__(driver)\n        self.driver.get(\"https://opensource-demo.orangehrmlive.com\")\n        self.default_username = 'Admin'\n        self.default_password = 'admin123'\n    def login(self):",
+        "detail": "udemy.test_suite.page",
+        "documentation": {}
+    },
+    {
+        "label": "suite",
+        "kind": 2,
+        "importPath": "udemy.test_suite.suite_all_tests",
+        "description": "udemy.test_suite.suite_all_tests",
+        "peekOfCode": "def suite():\n    suite = unittest.TestSuite()\n    # Home page tests\n    # Example: suite.addTest(TestCaseClass('tc_name'))\n    suite.addTest(TestLogin('test_TC_L_001'))\n    return suite\nif __name__ == '__main__':\n    runner = unittest.TextTestRunner(verbosity = 2)\n    suite = suite()\n    runner.run(suite)",
+        "detail": "udemy.test_suite.suite_all_tests",
+        "documentation": {}
+    },
+    {
+        "label": "TestHRMBase",
+        "kind": 6,
+        "importPath": "udemy.test_suite.testAll",
+        "description": "udemy.test_suite.testAll",
+        "peekOfCode": "class TestHRMBase(unittest.TestCase):\n    \"\"\"\n    TBD\n    \"\"\"\n    @classmethod\n    def setUp(cls):\n        chrome_options = webdriver.ChromeOptions()\n        # chrome_options.add_argument('headless')\n        chrome_options.add_argument('window-size=1920x1080')\n        cls.driver = webdriver.Chrome(options=chrome_options)",
+        "detail": "udemy.test_suite.testAll",
+        "documentation": {}
+    },
+    {
+        "label": "TestLogin",
+        "kind": 6,
+        "importPath": "udemy.test_suite.testAll",
+        "description": "udemy.test_suite.testAll",
+        "peekOfCode": "class TestLogin(TestHRMBase):\n    \"\"\"\n    TBD\n    \"\"\"\n    def setUp(self):\n        #super().setUp()\n        self.login = LoginPage(self.driver)\n    def test_TC_L_001(self):\n        self.login.assert_elem_text(LoginPageLocators.login_panel, 'LOGIN Panel')\n        user_name_input = self.login.driver.find_element(*LoginPageLocators.username)",
+        "detail": "udemy.test_suite.testAll",
+        "documentation": {}
+    },
+    {
+        "label": "TestAdmin",
+        "kind": 6,
+        "importPath": "udemy.test_suite.testAll",
+        "description": "udemy.test_suite.testAll",
+        "peekOfCode": "class TestAdmin(TestHRMBase):\n    @classmethod\n    def setUpClass(cls):\n        super().setUp(cls)\n        cls.login = LoginPage(cls.driver)\n        cls.login.login()\n        cls.page = cls.login\n    def test_TC_A_001(self):\n        job_title = 'QA automation developer'\n        job_description = 'Automating tests in Python and Selenium Webdriver.'",
+        "detail": "udemy.test_suite.testAll",
+        "documentation": {}
+    }
+]

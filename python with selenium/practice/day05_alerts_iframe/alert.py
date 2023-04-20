@@ -28,7 +28,7 @@ class alerts:
     print(actual_result.text)
     assert expected_result == actual_result.text
 
-
+    
 
 
 
