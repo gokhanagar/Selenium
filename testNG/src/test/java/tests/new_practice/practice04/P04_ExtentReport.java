@@ -12,6 +12,7 @@ public class P04_ExtentReport extends TestBase {
 
     @Test
     public void invisibleTest() {
+
         /*
         extentTest = extentReports.createTest("Wait Testi", "Test Raporu");
         //https://automationfc.github.io/dynamic-loading/ sayfasına gidelim
