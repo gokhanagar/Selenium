@@ -44,5 +44,8 @@ public class P02_ScreenShot extends TestBase {
         //Arama sonucunun resmini alalım
         //sonuc elementini locate edip webelmente assine edin
           //FileUtils.copyFile(WE.getScreenshotAs(OutputType.FILE),new File("target/tumSayfaResmi/tumSayfa"+tarih+".jpeg"));
+
     }
+
+
 }
