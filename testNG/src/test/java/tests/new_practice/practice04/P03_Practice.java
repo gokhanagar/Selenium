@@ -27,4 +27,5 @@ public class P03_Practice extends TestBase {
         //list'i koymalıyız
 
     }
+
 }
