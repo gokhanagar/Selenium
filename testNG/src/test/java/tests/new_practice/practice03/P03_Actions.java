@@ -48,4 +48,5 @@ public class P03_Actions extends TestBase {
         assert "Dropped!".equals(driver.findElement(By.xpath("//*[text()='Dropped!']")).getText());
 
     }
+
 }
