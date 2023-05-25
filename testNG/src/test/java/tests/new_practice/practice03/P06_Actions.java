@@ -39,4 +39,5 @@ public class P06_Actions extends TestBase {
         assert sari.isDisplayed();
 
     }
+
 }
