@@ -37,4 +37,5 @@ public class P05_Actions extends TestBase {
         driver.findElement(By.xpath("//*[text()='Clear']")).click();
 
     }
+
 }
