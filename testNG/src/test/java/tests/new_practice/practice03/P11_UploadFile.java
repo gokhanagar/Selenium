@@ -39,5 +39,8 @@ public class P11_UploadFile extends TestBase {
         // "1 file has been successfully uploaded" görünür olduğunu test edin
         Thread.sleep(2000);
         assert driver.findElement(By.xpath("//*[@id='res']")).isDisplayed();
+
     }
+
+
 }
