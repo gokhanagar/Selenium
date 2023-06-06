@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class P12_DownloadFile extends TestBase {
+
     //https://www.selenium.dev/downloads/ adresine gidelim
     //Platforms Supported by Selenium altındaki Browsers bölümü görünene kadar sayfayı indirelim
     //Browser bölümünden Chrome driver bölümündeki documentation linkine tıklıyalım
